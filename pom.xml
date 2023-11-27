@@ -20,6 +20,22 @@
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-core</artifactId>
+            <version>4.0.14</version> <!-- Use the latest version available -->
+        </dependency>
+        <dependency>
+            <groupId>net.serenity-bdd</groupId>
+            <artifactId>serenity-junit</artifactId>
+            <version>4.0.14</version> <!-- Use the latest version available -->
+        </dependency>
+        <dependency>
+            <groupId>net.serenity-bdd</groupId>
+            <artifactId>serenity-rest-assured</artifactId>
+            <version>4.0.14</version> <!-- Use the latest version available -->
+        </dependency>
+
+        <dependency>
+            <groupId>net.serenity-bdd</groupId>
+            <artifactId>serenity-core</artifactId>
             <version>4.0.14</version> <!-- Replace with the correct version -->
             <scope>test</scope>
         </dependency>
@@ -116,6 +132,12 @@
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-model</artifactId>
             <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
