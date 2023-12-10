@@ -3,7 +3,7 @@ Feature: Update User
   As a user
   I want to update user
   So that i can update my user
-
+@1
   Scenario: As a user I can update user with valid credentials
     Given I set valid API endpoint for update user
     When I send valid request and set valid json data for update user

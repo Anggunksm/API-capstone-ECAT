@@ -16,9 +16,9 @@ public class UpdatePhotoProfile {
 
     private static String url = "http://34.128.69.15:8000/user/photo-profile";
 
-    private static String url1= "34.128.69.15:8000/invalid";
+    private static String url1= "http://34.128.69.15:8000/invalid";
 
-    private static String Token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6Ik5hSmFlbWluMTJAZ21haWwuY29tIiwiZXhwIjoxNzAyMDY3OTcxLCJpZCI6IlNGWEk3aCIsIm5hbWUiOiJOYW5hIn0.iTFyQWek1b4D1SyInGynxkm_FhNlpgDO4zVL_plDxNE";
+    private static String Token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6Ik5hSmFlbWluMTJAZ21haWwuY29tIiwiZXhwIjoxNzAyMjI0MjE4LCJpZCI6IlNGWEk3aCIsIm5hbWUiOiJOYW5hIn0.MarzY0GnuQ6VUJmXSVIATwI4YoR_W_38h8PqfObzKqw";
 
     @Step("I set valid API Endpoint for update photo profile")
     public String setValidAPIEndpoint() {return url;}
@@ -31,7 +31,7 @@ public class UpdatePhotoProfile {
         SerenityRest.given()
                 .contentType(ContentType.MULTIPART)
                 .multiPart("file",sampleFile)
-                .post(setValidAPIEndpoint());
+                .put(setValidAPIEndpoint());
     }
 
     @Step("I send valid token for update photo profile")
@@ -57,7 +57,7 @@ public class UpdatePhotoProfile {
         SerenityRest.given()
                 .contentType(ContentType.MULTIPART)
                 .multiPart("file",sampleFile)
-                .post(setInvalidApiEndpoint());
+                .put(setInvalidApiEndpoint());
     }
 
     @Step("I send invalid request and set valid json data for update photo profile")
@@ -82,7 +82,7 @@ public class UpdatePhotoProfile {
 
         SerenityRest.given()
                 .contentType(ContentType.MULTIPART)
-                .post(setValidAPIEndpoint());
+                .put(setValidAPIEndpoint());
     }
 
     @Step("I send invalid request and set invalid json data for update photo profile")
