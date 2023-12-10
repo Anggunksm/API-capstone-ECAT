@@ -17,7 +17,7 @@ public class ResetPassword {
 
     private static String url1 = "http://34.128.69.15:8000/invalid";
 
-    private static String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6ImhhZWNoYW4xMjNAZ21haWwuY29tIiwiZXhwIjoxNzAxMDY5NTUxLCJpZCI6InBjOVRWciIsIm5hbWUiOiJOYXVmYWwifQ.yeXdMYhWKJzLUKE8V48rFtyKu45sjNR7r5fFgDL6Ft0";
+    private static String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6ImhhZWNoYW4xMjNAZ21haWwuY29tIiwiZXhwIjoxNzAxMjQzOTIwLCJpZCI6InBjOVRWciIsIm5hbWUiOiJOYXVmYWwifQ.lNiVrXAC3-L75zXnqBcRQSWs7d-r-2K1Ho36G6Moi_QeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6ImhhZWNoYW4xMjNAZ21haWwuY29tIiwiZXhwIjoxNzAxMjQzOTIwLCJpZCI6InBjOVRWciIsIm5hbWUiOiJOYXVmYWwifQ.lNiVrXAC3-L75zXnqBcRQSWs7d-r-2K1Ho36G6Moi_Q";
 
     Faker faker = new Faker();
     String password = faker.internet().password(12, 16, true, true, true);

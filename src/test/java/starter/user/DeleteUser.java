@@ -10,11 +10,11 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class DeleteUser {
 
-    private static String url = "http://34.128.69.15:8000/user/pc9TVr";
+    private static String url = "http://34.128.69.15:8000/user/b5zevG";
 
     private static String url1 = "http://34.128.69.15:8000/invalid";
 
-    private static String token ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6ImhhZWNoYW4xMjNAZ21haWwuY29tIiwiZXhwIjoxNzAxMDY5NTUxLCJpZCI6InBjOVRWciIsIm5hbWUiOiJOYXVmYWwifQ.yeXdMYhWKJzLUKE8V48rFtyKu45sjNR7r5fFgDL6Ft0";
+    private static String token ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6ImFiY2QxMkBnbWFpbC5jb20iLCJleHAiOjE3MDEyNDQzMjcsImlkIjoiYjV6ZXZHIiwibmFtZSI6Ik5hdWZhbCJ9.LqsY_BYYjPQ50PrHSH6cdYI5eMcgL9kmMkUDusMFIKE";
 
     @Step("I set valid Api Endpoint for delete user")
     public String setValidApiEndpoint() {return url;}

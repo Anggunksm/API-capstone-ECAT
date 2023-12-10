@@ -10,13 +10,11 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class SearchUserById {
 
-    private static String url2 = "http://34.128.69.15:8000/user/search?name=Naufal";
-
     private static String url = "http://34.128.69.15:8000/user/search?id=e571kV";
 
     private static String url1 = "http://34.128.69.15:8000/invalid";
 
-    private static String token ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6Ik5hbWpvb24xMkBnbWFpbC5jb20iLCJleHAiOjE3MDEwNzc2MjAsImlkIjoiZTU3MWtWIiwibmFtZSI6Ik5hdWZhbCJ9._Mkuka0-blAinKgDO7grIBQf2BWA8XzeXIlBqnX4S0A";
+    private static String token ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6Ik5hbWpvb24xMkBnbWFpbC5jb20iLCJleHAiOjE3MDEyNDQwNjIsImlkIjoiZTU3MWtWIiwibmFtZSI6Ik5hdWZhbCJ9.pv9jkL1d1qsBYa3JmTrF5su4Z4Eiic7eRVCcjpu2AwM";
 
     @Step("I set valid Api Endpoint for Search User By Id")
     public String setValidApiEndpoint() {return url;}
