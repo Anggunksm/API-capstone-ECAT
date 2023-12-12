@@ -14,7 +14,7 @@ public class DeleteNewsSteps {
     public void setValidApiEndpoint() {deleteNews.setValidApiEndpoint();}
 
     @When("I send valid request and valid token for delete news")
-    public void sendValidRequest() {deleteNews.sendValidRequest();}
+    public void  sendValidRequest() {deleteNews.sendValidRequest();}
 
     @When("I send valid request and valid token for delete news 1")
     public void sendValidRequest3() {deleteNews.sendValidRequest3();}
