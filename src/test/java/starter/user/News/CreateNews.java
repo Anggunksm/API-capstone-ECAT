@@ -5,6 +5,7 @@ import net.thucydides.core.annotations.Step;
 import org.json.JSONObject;
 import starter.utils.JsonSchema;
 import starter.utils.JsonSchemaHelper;
+import starter.utils.Token;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
@@ -15,7 +16,7 @@ public class CreateNews {
 
     private static String url1 = "http://34.128.69.15:8000/invalid";
 
-    private static String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6Ikplbm8xMkBnbWFpbC5jb20iLCJleHAiOjE3MDIwNTE0MzMsImlkIjoia1J1c1ZTIiwibmFtZSI6IlphcmEifQ.8bsjfNykTyfyeWdW7KAgOD5LB3GSqMGs1d06ucrq7J4";
+    String token = Token.token1();
 
     @Step("I set valid API Endpoint for create news")
     public String setValidApiEndpoint() {return url;}

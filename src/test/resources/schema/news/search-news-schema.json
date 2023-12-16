@@ -46,6 +46,15 @@
         "adminId": {
           "type": "string"
         },
+        "category": {
+          "type": "string"
+        },
+        "fullname": {
+          "type": "string"
+        },
+        "photoImage": {
+          "type": "string"
+        },
         "title": {
           "type": "string"
         },
@@ -56,6 +65,9 @@
           "type": "string",
           "format": "date-time"
         },
+        "imageUrl": {
+          "type": "string"
+        },
         "feedback": {
           "type": "null"
         },
@@ -65,11 +77,15 @@
       },
       "required": [
         "adminId",
+        "category",
         "content",
         "date",
         "feedback",
+        "fullname",
         "id",
+        "imageUrl",
         "likes",
+        "photoImage",
         "title"
       ],
       "title": "Results"

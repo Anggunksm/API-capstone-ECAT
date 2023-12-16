@@ -4,6 +4,7 @@ import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
 import starter.utils.JsonSchema;
 import starter.utils.JsonSchemaHelper;
+import starter.utils.Token;
 
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
@@ -14,7 +15,7 @@ public class GetAllAdmin {
 
     private static String url1 = "http://34.128.69.15:8000/invalid";
 
-    private static String token ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6Ikplbm5pZTEyQGdtYWlsLmNvbSIsImV4cCI6MTcwMTI0NDEwMiwiaWQiOiJiNEtzVEYiLCJuYW1lIjoiWmFyYSJ9.7_fC3wX9H0axHHF_5fju4zf8GnV7wXR-UukTx6bhV1Y";
+    String token = Token.token1();
 
     @Step("I set valid Api Endpoint for get all admin")
     public String setValidApiEndpoint() {return url;}

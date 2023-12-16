@@ -31,11 +31,23 @@
         },
         "message": {
           "type": "string"
+        },
+        "page": {
+          "type": "integer"
+        },
+        "limit": {
+          "type": "integer"
+        },
+        "total": {
+          "type": "integer"
         }
       },
       "required": [
+        "limit",
         "message",
-        "success"
+        "page",
+        "success",
+        "total"
       ],
       "title": "Meta"
     },
@@ -47,7 +59,7 @@
           "type": "string"
         },
         "name": {
-          "type": "string"
+          "$ref": "#/definitions/Name"
         },
         "username": {
           "type": "string"
@@ -57,16 +69,29 @@
         },
         "phone": {
           "type": "string"
+        },
+        "imageUrl": {
+          "type": "string"
         }
       },
       "required": [
         "email",
         "id",
+        "imageUrl",
         "name",
         "phone",
         "username"
       ],
       "title": "Result"
+    },
+    "Name": {
+      "type": "string",
+      "enum": [
+        "innaka",
+        "retno",
+        "Ardanu"
+      ],
+      "title": "Name"
     }
   }
 }

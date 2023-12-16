@@ -1,4 +1,4 @@
-@Mark
+@User
 Feature: Reset Password
   As a user
   I want to reset password

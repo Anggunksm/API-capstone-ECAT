@@ -1,4 +1,4 @@
-@Get
+@User
 Feature: Search User By Id
   As an User
   I want to Search User By Id

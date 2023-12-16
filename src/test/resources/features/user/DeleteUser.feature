@@ -1,4 +1,4 @@
-@Mark
+@User
 Feature: Delete USer
   As a user
   I want to delete user

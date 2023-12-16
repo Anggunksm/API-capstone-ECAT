@@ -1,4 +1,4 @@
-@Tuy
+@User
 Feature: Search User By Name
   As an User
   I want to Search User By Name

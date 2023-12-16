@@ -1,3 +1,4 @@
+@Admin
 Feature: Get All Admin
   As an admin
   I want to get all admin

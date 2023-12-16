@@ -1,4 +1,4 @@
-@CreateNews
+@Admin
 Feature: Create News
   As an admin
   I want to create news

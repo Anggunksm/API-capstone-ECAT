@@ -1,4 +1,4 @@
-@A
+@User
 Feature: Update Photo Profile
   As a user
   I want to update photo profile

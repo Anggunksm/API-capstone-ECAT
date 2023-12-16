@@ -6,6 +6,7 @@ import net.thucydides.core.annotations.Step;
 import org.json.JSONObject;
 import starter.utils.JsonSchema;
 import starter.utils.JsonSchemaHelper;
+import starter.utils.Token;
 
 import java.io.File;
 
@@ -18,7 +19,7 @@ public class UpdatePhotoProfile {
 
     private static String url1= "http://34.128.69.15:8000/invalid";
 
-    private static String Token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6Ik5hSmFlbWluMTJAZ21haWwuY29tIiwiZXhwIjoxNzAyMjI0MjE4LCJpZCI6IlNGWEk3aCIsIm5hbWUiOiJOYW5hIn0.MarzY0GnuQ6VUJmXSVIATwI4YoR_W_38h8PqfObzKqw";
+    String token = Token.token();
 
     @Step("I set valid API Endpoint for update photo profile")
     public String setValidAPIEndpoint() {return url;}
@@ -37,7 +38,7 @@ public class UpdatePhotoProfile {
     @Step("I send valid token for update photo profile")
     public void sendValidToken() {
         SerenityRest.given()
-                .header("Authorization", "Bearer " + Token);
+                .header("Authorization", "Bearer " + token);
     }
 
     @Step("I successfully updated my profile photo")

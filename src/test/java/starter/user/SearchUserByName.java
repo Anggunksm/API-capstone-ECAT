@@ -2,6 +2,7 @@ package starter.user;
 
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
+import starter.utils.Token;
 
 public class SearchUserByName {
 
@@ -9,7 +10,7 @@ public class SearchUserByName {
 
     private static String url1 = "http://34.128.69.15:8000/invalid";
 
-    private static String token ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6ImhhZWNoYW4xMjNAZ21haWwuY29tIiwiZXhwIjoxNzAxMjQzOTIwLCJpZCI6InBjOVRWciIsIm5hbWUiOiJOYXVmYWwifQ.lNiVrXAC3-L75zXnqBcRQSWs7d-r-2K1Ho36G6Moi_Q";
+    String token = Token.token();
 
     @Step("I set valid Api Endpoint for Search User By Name")
     public String setValidApiEndpoint() {return url;}

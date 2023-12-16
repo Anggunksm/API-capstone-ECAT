@@ -2,14 +2,16 @@ package starter.user.News;
 
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
+import starter.utils.Token;
 
 public class DeleteNews {
 
-    private static String url = "http://34.128.69.15:8000/admin/news/tnXCjt";
+    private static String url = "http://34.128.69.15:8000/admin/news/Z9bZTd";
 
     private static String url1 = "http://34.128.69.15:8000/invalid";
 
-    private static String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6Ikplbm8xMkBnbWFpbC5jb20iLCJleHAiOjE3MDI0MDU5ODcsImlkIjoia1J1c1ZTIiwibmFtZSI6IlphcmEiLCJyb2xlIjoiYWRtaW4ifQ.vV90R1uLSyvwJdbXmYbCD7BggnGNfqbPHDeTXJDjF_M";
+    String token = Token.token1();
+
     @Step("I set valid Api Endpoint for delete news")
     public String setValidApiEndpoint() {return url;}
 

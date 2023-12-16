@@ -10,7 +10,10 @@
           "$ref": "#/definitions/Meta"
         },
         "results": {
-          "type": "null"
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Result"
+          }
         }
       },
       "required": [
@@ -47,6 +50,171 @@
         "total"
       ],
       "title": "Meta"
+    },
+    "Result": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "adminId": {
+          "$ref": "#/definitions/AdminID"
+        },
+        "category": {
+          "$ref": "#/definitions/Category"
+        },
+        "fullname": {
+          "$ref": "#/definitions/Fullname"
+        },
+        "photoImage": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "imageUrl": {
+          "$ref": "#/definitions/ImageURL"
+        },
+        "feedback": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Feedback"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "likes": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Like"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "adminId",
+        "category",
+        "content",
+        "date",
+        "feedback",
+        "fullname",
+        "id",
+        "imageUrl",
+        "likes",
+        "photoImage",
+        "title"
+      ],
+      "title": "Result"
+    },
+    "Feedback": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "fullname": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "photoImage": {
+          "type": "string"
+        },
+        "newsId": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "content",
+        "fullname",
+        "id",
+        "newsId",
+        "photoImage",
+        "role"
+      ],
+      "title": "Feedback"
+    },
+    "Like": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "userId": {
+          "type": "string"
+        },
+        "newsId": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "newsId",
+        "status",
+        "userId"
+      ],
+      "title": "Like"
+    },
+    "AdminID": {
+      "type": "string",
+      "enum": [
+        "j3Q6RF",
+        "PasheE",
+        "kRusVS"
+      ],
+      "title": "AdminID"
+    },
+    "Category": {
+      "type": "string",
+      "enum": [
+        "Pendidikan",
+        ""
+      ],
+      "title": "Category"
+    },
+    "Fullname": {
+      "type": "string",
+      "enum": [
+        "Zara",
+        "Syafrudin"
+      ],
+      "title": "Fullname"
+    },
+    "ImageURL": {
+      "type": "string",
+      "enum": [
+        "icgk8zo8altug33l2hos.png",
+        ""
+      ],
+      "title": "ImageURL"
     }
   }
 }

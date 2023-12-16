@@ -1,4 +1,4 @@
-@UpdateNews
+@Admin
 Feature: Update News
   As an admin
   I want to update news

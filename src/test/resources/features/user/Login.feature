@@ -1,4 +1,4 @@
-@Login
+@User
 Feature: Login
   As a  user
   I want to login

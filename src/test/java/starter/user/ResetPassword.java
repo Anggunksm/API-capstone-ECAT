@@ -6,6 +6,7 @@ import net.thucydides.core.annotations.Step;
 import org.json.JSONObject;
 import starter.utils.JsonSchema;
 import starter.utils.JsonSchemaHelper;
+import starter.utils.Token;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
@@ -17,7 +18,7 @@ public class ResetPassword {
 
     private static String url1 = "http://34.128.69.15:8000/invalid";
 
-    private static String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6ImhhZWNoYW4xMjNAZ21haWwuY29tIiwiZXhwIjoxNzAxMjQzOTIwLCJpZCI6InBjOVRWciIsIm5hbWUiOiJOYXVmYWwifQ.lNiVrXAC3-L75zXnqBcRQSWs7d-r-2K1Ho36G6Moi_QeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6ImhhZWNoYW4xMjNAZ21haWwuY29tIiwiZXhwIjoxNzAxMjQzOTIwLCJpZCI6InBjOVRWciIsIm5hbWUiOiJOYXVmYWwifQ.lNiVrXAC3-L75zXnqBcRQSWs7d-r-2K1Ho36G6Moi_Q";
+    String token = Token.token();
 
     Faker faker = new Faker();
     String password = faker.internet().password(12, 16, true, true, true);

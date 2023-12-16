@@ -6,6 +6,7 @@ import net.thucydides.core.annotations.Step;
 import org.json.JSONObject;
 import starter.utils.JsonSchema;
 import starter.utils.JsonSchemaHelper;
+import starter.utils.Token;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
@@ -16,7 +17,7 @@ public class UpdateUser {
 
     private static String url1 = "http://34.128.69.15:8000/invalid";
 
-    private static String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6IkFiaWR6YXIxMkBnbWFpbC5jb20iLCJleHAiOjE3MDE4NTQ4MTcsImlkIjoiQjEyMGJIIiwibmFtZSI6Ik1hcmsifQ.V6xO2dV383vYjnG_ddMR6lNLZlPu3WUHYDKB3WQxfo8";
+    String token = Token.token();
 
     @Step("I set valid API endpoint for update user")
     public String setValidApiEndpoint() {return url;}
@@ -25,9 +26,9 @@ public class UpdateUser {
     public void sendValidRequest() {
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("name", "Fani");
-        requestBody.put("username", "Tifani");
-        requestBody.put("email", "Tifani12@gmail.com");
+        requestBody.put("name", "Naufal");
+        requestBody.put("username", "Atuy");
+        requestBody.put("email", "Tik.9d.umi.33@gmail.com");
         requestBody.put("phone", "081234567890");
         requestBody.put("password", "12345678");
 
@@ -58,9 +59,9 @@ public class UpdateUser {
     public void sendValidRequest1() {
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("name", "Fani");
-        requestBody.put("username", "Tifani");
-        requestBody.put("email", "Tifani12@gmail.com");
+        requestBody.put("name", "Naufal");
+        requestBody.put("username", "Atuy");
+        requestBody.put("email", "Tik.9d.umi.33@gmail.com");
         requestBody.put("phone", "081234567890");
         requestBody.put("password", "12345678");
 
@@ -73,9 +74,9 @@ public class UpdateUser {
     public void sendInvalidRequest() {
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("name", "Fani");
-        requestBody.put("username", "Tifani");
-        requestBody.put("email", "Tifani12@gmail.com");
+        requestBody.put("name", "Naufal");
+        requestBody.put("username", "Atuy");
+        requestBody.put("email", "Tik.9d.umi.33@gmail.com");
         requestBody.put("phone", "081234567890");
         requestBody.put("password", "12345678");
 

@@ -1,4 +1,4 @@
-@SearchNews
+@Admin
 Feature: Search News
   As an admin
   I want to search news

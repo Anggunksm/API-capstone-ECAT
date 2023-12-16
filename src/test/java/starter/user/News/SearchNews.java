@@ -4,18 +4,18 @@ import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
 import starter.utils.JsonSchema;
 import starter.utils.JsonSchemaHelper;
+import starter.utils.Token;
 
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class SearchNews {
 
-    private static String url = "http://34.128.69.15:8000/admin/news/search?id=aSNT7i";
+    private static String url = "http://34.128.69.15:8000/admin/news/search?id=pinLPK";
 
     private static String url1 = "http://34.128.69.15:8000/invalid";
 
-    private static String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6Ikplbm8xMkBnbWFpbC5jb20iLCJleHAiOjE3MDIwNjI5NDIsImlkIjoia1J1c1ZTIiwibmFtZSI6IlphcmEifQ.8kNQMZhgyevUYtpGOrornzthZ7zev3fqGga2UgXj0wg";
-
+    String token = Token.token1();
     @Step("I set valid Api Endpoint for search news")
     public String setValidApiEndpoint() {return url;}
 

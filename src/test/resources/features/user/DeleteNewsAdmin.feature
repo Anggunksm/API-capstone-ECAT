@@ -1,4 +1,4 @@
-@AdminDeleteNews
+@Admin
 Feature: Delete News
   As an admin
   I want to delete news

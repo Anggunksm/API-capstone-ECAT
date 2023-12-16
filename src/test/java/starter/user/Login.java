@@ -22,7 +22,7 @@ public class Login {
     public void sendValidRequest() {
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("username", "haechan");
+        requestBody.put("username", "Atuy");
         requestBody.put("password", "12345678");
 
         SerenityRest.given()
@@ -45,7 +45,7 @@ public class Login {
     public void sendValidRequest1() {
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("username", "haechan");
+        requestBody.put("username", "Atuy");
         requestBody.put("password", "12345678");
 
         SerenityRest.given()
@@ -58,7 +58,7 @@ public class Login {
     public void sendInvalidRequest() {
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("username", "haechan");
+        requestBody.put("username", "Atuy");
         requestBody.put("password", "12345678");
 
         SerenityRest.given()
@@ -84,7 +84,7 @@ public class Login {
     public void sendValidRequest3() {
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("username", "haechan");
+        requestBody.put("username", "Atuy");
         requestBody.put("password", "");
 
         SerenityRest.given()

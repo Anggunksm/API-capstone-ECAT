@@ -54,11 +54,15 @@
         },
         "phone": {
           "type": "string"
+        },
+        "imageUrl": {
+          "type": "string"
         }
       },
       "required": [
         "email",
         "id",
+        "imageUrl",
         "name",
         "phone",
         "username"
