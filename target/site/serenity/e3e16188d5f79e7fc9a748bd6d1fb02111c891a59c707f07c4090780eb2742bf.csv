@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get All Category","As a user I can get all category with valid credentials","SUCCESS","2023-12-18T02:56:16.9003381+07:00[Asia/Jakarta]","0.0","0.47"
+"Get All Category","As a user I can not get all category with invalid endpoint","SUCCESS","2023-12-18T02:56:17.4343014+07:00[Asia/Jakarta]","0.0","0.16"
+"Get Complaint By Id","As a user I can get category by id with valid credentials","SUCCESS","2023-12-18T02:56:18.0771405+07:00[Asia/Jakarta]","0.0","0.31"
+"Get Complaint By Id","As a user I can not get category by id with invalid endpoint","SUCCESS","2023-12-18T02:56:18.4066005+07:00[Asia/Jakarta]","0.0","0.2"
+"Get Complaint By Id","As a user I can get complaint by id with valid credentials","SUCCESS","2023-12-18T02:56:29.0130012+07:00[Asia/Jakarta]","0.0","0.14"
+"Get Complaint By Id","As a user I can not get complaint by id with invalid endpoint","SUCCESS","2023-12-18T02:56:29.1545204+07:00[Asia/Jakarta]","0.0","0.09"

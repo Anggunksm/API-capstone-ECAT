@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Complaint Solved Statistic","As an admin I can get complaint solved statistic with valid credentials","ERROR","2023-12-18T02:56:11.7252865+07:00[Asia/Jakarta]","0.0","0.27"
+"Complaint Solved Statistic","As an admin I can not get complaint solved statistic with invalid endpoint","ERROR","2023-12-18T02:56:12.0069639+07:00[Asia/Jakarta]","0.0","0.14"
+"Get Chat By Room Id","As a user I can get chat by room id with valid credentials","ERROR","2023-12-18T02:56:19.7415901+07:00[Asia/Jakarta]","0.0","0.3"
+"Get Chat By Room Id","As a user I can not get chat by room id with invalid endpoint","ERROR","2023-12-18T02:56:20.0867984+07:00[Asia/Jakarta]","0.0","0.16"

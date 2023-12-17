@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Register Admin","As an admin I can register with valid credentials","SUCCESS","2023-12-18T02:55:47.9867109+07:00[Asia/Jakarta]","0.0","1.87"
+"Reset Password Admin","As an admin I can reset password with valid credentials","SUCCESS","2023-12-18T02:55:54.4721135+07:00[Asia/Jakarta]","0.0","1.85"
+"Reset Password Admin","As an admin I can not reset password with empty new password","SUCCESS","2023-12-18T02:55:56.3358567+07:00[Asia/Jakarta]","0.0","1.07"
+"Reset Password Admin","As an admin I can not reset password with empty invalid password","SUCCESS","2023-12-18T02:55:58.4546256+07:00[Asia/Jakarta]","0.0","1.63"
+"Search Admin By Id","As an admin I can search admin by id with valid credentials","SUCCESS","2023-12-18T02:56:00.5868313+07:00[Asia/Jakarta]","0.0","1.02"
+"Search Admin By Id","As an admin I can not search admin by id without login","SUCCESS","2023-12-18T02:56:03.0928273+07:00[Asia/Jakarta]","0.0","1.01"

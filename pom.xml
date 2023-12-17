@@ -21,6 +21,17 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.16.0</version>
+        </dependency>
+            <!-- ByteBuddy -->
+        <dependency>
+             <groupId>net.bytebuddy</groupId>
+             <artifactId>byte-buddy</artifactId>
+             <version>1.11.14</version>
+        </dependency>
+        <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.4.7</version>
@@ -94,7 +105,11 @@
             <artifactId>json-schema-validator</artifactId>
             <version>5.3.1</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
+        </dependency>
     </dependencies>
 
     <build>

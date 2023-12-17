@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search Admin By Id","As an admin I can search admin by id with valid credentials","SUCCESS","2023-12-18T02:56:00.5868313+07:00[Asia/Jakarta]","0.0","1.02"
+"Search Admin By Id","As an admin I can not search admin by id without login","SUCCESS","2023-12-18T02:56:03.0928273+07:00[Asia/Jakarta]","0.0","1.01"

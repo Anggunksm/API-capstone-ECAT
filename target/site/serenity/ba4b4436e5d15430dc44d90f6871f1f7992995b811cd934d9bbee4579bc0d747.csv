@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get All Category","As a user I can not get all category without token","FAILURE","2023-12-18T02:56:17.6066571+07:00[Asia/Jakarta]","0.0","0.36"
+"Get Complaint By Id","As a user I can not get category by id without token","FAILURE","2023-12-18T02:56:18.6283074+07:00[Asia/Jakarta]","0.0","0.2"

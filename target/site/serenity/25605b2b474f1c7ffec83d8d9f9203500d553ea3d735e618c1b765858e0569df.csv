@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User Statistic","As an admin I can get user statistic with valid credentials","SUCCESS","2023-12-18T02:56:12.8892471+07:00[Asia/Jakarta]","0.0","0.22"
+"User Statistic","As an admin I can not get user statistic with invalid endpoint","SUCCESS","2023-12-18T02:56:13.1248903+07:00[Asia/Jakarta]","0.0","0.2"
+"User Statistic","As an admin I can not get user statistic without token","SUCCESS","2023-12-18T02:56:13.3445798+07:00[Asia/Jakarta]","0.0","0.16"

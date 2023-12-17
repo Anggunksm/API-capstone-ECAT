@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Reset Password Admin","As an admin I can not reset password with empty confirm password","SUCCESS","2023-12-18T02:55:57.4970182+07:00[Asia/Jakarta]","0.0","0.83"
+"Reset Password Admin","As an admin I can not reset password without login","SUCCESS","2023-12-18T02:56:00.2120757+07:00[Asia/Jakarta]","0.0","0.33"

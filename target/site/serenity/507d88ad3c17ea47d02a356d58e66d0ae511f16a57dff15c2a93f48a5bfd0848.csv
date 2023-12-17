@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search Admin By Id","As an admin I can search admin by id with valid credentials","SUCCESS","2023-12-18T02:56:00.5868313+07:00[Asia/Jakarta]","0.0","1.02"
+"Search Admin By Id","As an admin I can not search admin by id with invalid endpoint","SUCCESS","2023-12-18T02:56:01.6895117+07:00[Asia/Jakarta]","0.0","0.48"
+"Search Admin By Id","As an admin I can not search admin by name with invalid endpoint","SUCCESS","2023-12-18T02:56:02.3155694+07:00[Asia/Jakarta]","0.0","0.75"
+"Search Admin By Id","As an admin I can not search admin by id without login","SUCCESS","2023-12-18T02:56:03.0928273+07:00[Asia/Jakarta]","0.0","1.01"
+"Search Admin By Id","As an admin I can not search admin by name without login","SUCCESS","2023-12-18T02:56:04.1359551+07:00[Asia/Jakarta]","0.0","0.24"
+"Search Admin By Name","As an admin I can not search admin by name without login","SUCCESS","2023-12-18T02:56:06.2699386+07:00[Asia/Jakarta]","0.0","0.22"

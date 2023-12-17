@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get Complaint By Id","As a user I can get complaint by id with valid credentials","SUCCESS","2023-12-18T02:56:29.0130012+07:00[Asia/Jakarta]","0.0","0.14"
+"Get Complaint By Id","As a user I can not get complaint by id with invalid endpoint","SUCCESS","2023-12-18T02:56:29.1545204+07:00[Asia/Jakarta]","0.0","0.09"

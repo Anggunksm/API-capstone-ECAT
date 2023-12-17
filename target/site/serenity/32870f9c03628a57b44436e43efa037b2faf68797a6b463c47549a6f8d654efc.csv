@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search Admin By Name","As an admin I can search admin by name with valid credentials","FAILURE","2023-12-18T02:56:05.4699268+07:00[Asia/Jakarta]","0.0","0.27"
+"Search Admin By Name","As an admin I can not search admin by name with invalid endpoint","FAILURE","2023-12-18T02:56:05.7993337+07:00[Asia/Jakarta]","0.0","0.39"
+"Search Admin By Name","As an admin I can not search admin by name without login","SUCCESS","2023-12-18T02:56:06.2699386+07:00[Asia/Jakarta]","0.0","0.22"

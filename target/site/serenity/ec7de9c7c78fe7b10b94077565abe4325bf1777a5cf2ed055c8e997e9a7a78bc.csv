@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Create Room","As a user I can create room chat with valid credentials","FAILURE","2023-12-18T02:56:19.129609+07:00[Asia/Jakarta]","0.0","0.24"
+"Create Room","As a user I can not create room chat with invalid endpoint","SUCCESS","2023-12-18T02:56:19.3803848+07:00[Asia/Jakarta]","0.0","0.14"
+"Create Room","As a user I can not create room chat without token","SUCCESS","2023-12-18T02:56:19.5375529+07:00[Asia/Jakarta]","0.0","0.14"

@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"OTP Admin","As an admin I can send otp with valid credentials","FAILURE","2023-12-18T02:56:13.8619484+07:00[Asia/Jakarta]","0.0","0.14"
+"OTP Admin","As an admin I can not send otp with invalid endpoint","SUCCESS","2023-12-18T02:56:14.0347217+07:00[Asia/Jakarta]","0.0","0.14"
+"OTP Admin","As an admin I can not send otp without token","SUCCESS","2023-12-18T02:56:14.1914347+07:00[Asia/Jakarta]","0.0","0.11"

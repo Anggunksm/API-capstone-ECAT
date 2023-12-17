@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search Admin By Id","As an admin I can not search admin with query params id&name","FAILURE","2023-12-18T02:56:04.4029187+07:00[Asia/Jakarta]","0.0","0.52"
+"Search Admin By Name","As an admin I can search admin by name with valid credentials","FAILURE","2023-12-18T02:56:05.4699268+07:00[Asia/Jakarta]","0.0","0.27"
+"Search Admin By Name","As an admin I can not search admin by name with invalid endpoint","FAILURE","2023-12-18T02:56:05.7993337+07:00[Asia/Jakarta]","0.0","0.39"
+"Update Admin","As an admin I can not update admin with registered email","FAILURE","2023-12-18T02:56:10.5414658+07:00[Asia/Jakarta]","0.0","0.33"
+"Update Admin","As an admin I can not update admin with registered username","FAILURE","2023-12-18T02:56:10.9202525+07:00[Asia/Jakarta]","0.0","0.27"

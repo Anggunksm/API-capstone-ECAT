@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get All User","As a user I can get all user with valid credentials","SUCCESS","2023-12-18T02:56:14.7722111+07:00[Asia/Jakarta]","0.0","0.42"
+"Get All User","As a user I can not get all user with invalid endpoint","SUCCESS","2023-12-18T02:56:15.2204598+07:00[Asia/Jakarta]","0.0","0.12"
+"Get All User","As a user I can not get all user with post request","SUCCESS","2023-12-18T02:56:15.3534823+07:00[Asia/Jakarta]","0.0","0.14"
+"Get All User","As a user I can not get all user with put request","SUCCESS","2023-12-18T02:56:15.5212257+07:00[Asia/Jakarta]","0.0","0.15"
