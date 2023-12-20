@@ -14,7 +14,8 @@ public class Url {
     public static final String userLoginUrl = userUrl + "login";
     public static final String userComplaintUrl = userUrl + "complaint";
     public static final String userCreateRoomChatUrl = baseUrl + "chat/user/ws/create-room";
-    public static final String userGetChatByRoomIdUrl = baseUrl + "chat/user/ws/get-chats/:room_id";
+    public static final String userGetChatByRoomIdUrl = baseUrl + "chat/user/ws/get-chats/{room_id}";
+    public static final String invChatRoomUrl = baseUrl + "chat/users/ws/get-chats/{room_id}";
     public static final String userFaqUrl = userUrl + "faq";
     public static final String userSendOtpUrl = baseUrl + "otp/user/send-otp";
     public static final String userCategoryUrl = userUrl + "category";
@@ -38,7 +39,7 @@ public class Url {
 
 
     //INVALID
-    public static String invUrl = baseUrl + "users/adm";
+    public static String invUrl = baseUrl + "users";
 
 
 

@@ -21,7 +21,6 @@ public class GetChatByRoomId {
     static {
         requestSpec = SerenityRest.given()
                 .header("Authorization", "Bearer " + tokenUser())
-                .header("Content-Type", "application/json")
                 .pathParam("room_id", "VQ0fXT");
     }
 
@@ -33,7 +32,7 @@ public class GetChatByRoomId {
                 endpoint = userGetChatByRoomIdUrl;
                 break;
             case "invalid":
-                endpoint = invUrl;
+                endpoint = invChatRoomUrl;
                 break;
             default:
                 Assert.fail("Unsupported base type: " + endpointType);
@@ -60,7 +59,7 @@ public class GetChatByRoomId {
     @Step("I send get request to valid get chat by room id endpoint without token")
     public void  getChatByRoomIdWithoutToken() {
         SerenityRest.given()
-                .header("Content-Type", "application/json")
+                .pathParam("room_id", "VQ0fXT")
                 .get(setEndpointGetChatByRoomId("valid"));
     }
 

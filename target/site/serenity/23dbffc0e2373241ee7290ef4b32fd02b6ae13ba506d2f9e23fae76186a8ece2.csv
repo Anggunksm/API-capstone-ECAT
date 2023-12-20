@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Search Admin By Id","As an admin I can not search admin with query params id&name","FAILURE","2023-12-18T02:56:04.4029187+07:00[Asia/Jakarta]","0.0","0.52"
-"Search Admin By Name","As an admin I can search admin by name with valid credentials","FAILURE","2023-12-18T02:56:05.4699268+07:00[Asia/Jakarta]","0.0","0.27"
-"Search Admin By Name","As an admin I can not search admin by name with invalid endpoint","FAILURE","2023-12-18T02:56:05.7993337+07:00[Asia/Jakarta]","0.0","0.39"

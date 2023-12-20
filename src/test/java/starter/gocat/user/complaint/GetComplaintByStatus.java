@@ -52,7 +52,9 @@ public class GetComplaintByStatus {
                         .get(setEndpointGetAllComplaintStatus("valid"));
                 break;
             case "invalid":
-                requestSpec
+                SerenityRest.given()
+                        .header("Authorization", "Bearer " + tokenUser())
+                        .header("Content-Type", "application/json")
                         .queryParam("page", "1")
                         .queryParam("status", "solved")
                         .get(setEndpointGetAllComplaintStatus("invalid"));
@@ -61,7 +63,7 @@ public class GetComplaintByStatus {
                 SerenityRest.given()
                         .header("Authorization", "Bearer " + tokenUser())
                         .header("Content-Type", "application/json")
-                        .queryParam("status", "solved")
+                        .queryParam("status", "unsolved")
                         .get(setEndpointGetAllComplaintStatus("valid"));
                 break;
             default:
@@ -69,13 +71,13 @@ public class GetComplaintByStatus {
         }
     }
 
-//    @Step("I receive list of unsolved complaint")
-//    public void receiveListUnsolvedComplaint() {
-//        JsonSchemaHelper helper = new JsonSchemaHelper();
-//        String schema = helper.getResponseSchema(JsonSchema.SUCCESS_GET_UNSOLVED_COMPLAINT_RESPONSE_SCHEMA);
-//
-//        restAssuredThat(response -> response.body(matchesJsonSchema(schema)));
-//    }
+    @Step("I receive list of unsolved complaint")
+    public void receiveListUnsolvedComplaint() {
+        JsonSchemaHelper helper = new JsonSchemaHelper();
+        String schema = helper.getResponseSchema(JsonSchema.SUCCESS_GET_SOLVED_COMPLAINT_RESPONSE_SCHEMA);
+
+        restAssuredThat(response -> response.body(matchesJsonSchema(schema)));
+    }
 
     @Step("I receive list of solved complaint")
     public void receiveListSolvedComplaint() {

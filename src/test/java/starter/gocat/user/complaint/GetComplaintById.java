@@ -68,7 +68,7 @@ public class GetComplaintById {
     @Step("I receive detail complaint")
     public void receiveDetailComplaint() {
         JsonSchemaHelper helper = new JsonSchemaHelper();
-        String schema = helper.getResponseSchema(JsonSchema.SUCCESS_GET_ALL_COMPLAINT_RESPONSE_SCHEMA);
+        String schema = helper.getResponseSchema(JsonSchema.SUCCESS_GET_COMPLAINT_BY_ID_RESPONSE_SCHEMA);
 
         restAssuredThat(response -> response.body(matchesJsonSchema(schema)));
     }

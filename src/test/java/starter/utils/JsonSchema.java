@@ -17,7 +17,7 @@ public class JsonSchema {
     public static final  String SUCCESS_GET_USER_STAT_RESPONSE_SCHEMA = "schema/success-get-user-stat-response-schem.json";
     public static final  String SUCCESS_GET_SOLVED_STAT_RESPONSE_SCHEMA = "schema/success-get-solved-stat-response-schema.json";
     public static final  String SUCCESS_GET_COMPLAINT_STAT_RESPONSE_SCHEMA = "schema/success-get-complaint-stat-response-schema.json";
-//    public static final  String SUCCESS_GET_LANDING_STAT_RESPONSE_SCHEMA =
+    public static final  String SUCCESS_GET_COMPLAINT_BY_ID_RESPONSE_SCHEMA = "schema/success-get-complaint-by-id-response-schema.json";
     public static final  String SUCCESS_GET_NOTIF_RESPONSE_SCHEMA = "schema/success-get-notif-response-schema.json";
     public static final String SUCCESS_GET_ALL_CATEGORY_RESPONSE_SCHEMA = "schema/success-get-all-category-response-schema.json";
     public static final String SUCCESS_GET_CATEGORY_BY_ID_RESPONSE_SCHEMA = "schema/success-get-category-by-id-response-schema.json";

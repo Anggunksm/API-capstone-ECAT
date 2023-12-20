@@ -17,8 +17,7 @@ public class CreateRoomChat {
 
     static {
         requestSpec = SerenityRest.given()
-                .header("Authorization", "Bearer " + tokenUser())
-                .header("Content-Type", "aplication/json");
+                .header("Authorization", "Bearer " + tokenUser());
     }
 
     @Step("I set {String} endpoint for create room chat")

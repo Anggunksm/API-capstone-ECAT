@@ -20,11 +20,6 @@ public class SendOtpAdminSteps {
         sendOtpAdmin.sendPostBaseTypeSendOtpAdminEndpoint(baseType);
     }
 
-    @When("I send post request to valid send otp admin endpoint without token")
-    public void sendSendOtpAdminWithoutToken() {
-        sendOtpAdmin.sendOtpAdminWithoutToken();
-    }
-
     @And("I receive otp admin")
     public void receiveOtpAdmin() {
         sendOtpAdmin.receiveOtpAdmin();

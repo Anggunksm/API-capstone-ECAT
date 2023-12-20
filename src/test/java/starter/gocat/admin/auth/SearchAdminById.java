@@ -57,7 +57,9 @@ public class SearchAdminById {
                        .get(setEndpointSearchAdminById("invalid endpoint"));
                 break;
             case "double query params":
-                requestSpec
+                SerenityRest.given()
+                        .header("Authorization", "Bearer " + tokenAdmin())
+                        .queryParam("id", "asVTYs")
                         .queryParam("name", "Anggun")
                         .get(setEndpointSearchAdminById("valid endpoint"));
                 break;

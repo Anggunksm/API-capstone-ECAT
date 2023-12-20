@@ -9,6 +9,8 @@ import starter.utils.JsonSchemaHelper;
 
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.notNullValue;
 import static starter.Url.adminSolvedStatUrl;
 import static starter.Url.invUrl;
 import static starter.utils.GenerateToken.tokenAdmin;
@@ -18,8 +20,7 @@ public class GetSolvedStatistic {
 
     static {
         requestSpec = SerenityRest.given()
-                .header("Authorization", "Bearer " + tokenAdmin())
-                .header("Content-Type", "application/json");
+                .header("Authorization", "Bearer " + tokenAdmin());
     }
 
     @Step("I set {String} endpoint for get solved statistic")
@@ -57,16 +58,21 @@ public class GetSolvedStatistic {
     @Step("I send get request to valid get solved stat endpoint without token")
     public void getSolvedStatWithoutToken() {
         SerenityRest.given()
-                .header("Content-Type", "application/json")
                 .get(setEndpointTypeGetSolvedStatistic("valid"));
     }
 
     @Step("I receive the solved statistic")
     public void receiveSolvedStat() {
+        SerenityRest.lastResponse();
+
+
         JsonSchemaHelper helper = new JsonSchemaHelper();
         String schema = helper.getResponseSchema(JsonSchema.SUCCESS_GET_SOLVED_STAT_RESPONSE_SCHEMA);
 
-        restAssuredThat(response -> response.body(matchesJsonSchema(schema)));
+        SerenityRest.lastResponse().then().body(matchesJsonSchema(schema));
+        SerenityRest.lastResponse().then().body("meta.success", equalTo(true));
+        SerenityRest.lastResponse().then().body("meta.message", equalTo("success get solved data"));
+        SerenityRest.lastResponse().then().body("results", notNullValue());
     }
 
 }

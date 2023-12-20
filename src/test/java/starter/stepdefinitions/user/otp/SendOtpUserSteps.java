@@ -20,11 +20,6 @@ public class SendOtpUserSteps {
         sendOtpUser.sendGetBaseTypeSendOtpUserEndpoint(baseType);
     }
 
-    @When("I send post request to valid send otp user endpoint without token")
-    public void sendSendOtpUserWithoutToken() {
-        sendOtpUser.sendSendOtpUserWithoutToken();
-    }
-
     @And("I receive otp user")
     public void receiveOtpUser() {
         sendOtpUser.receiveOtpUser();

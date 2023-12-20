@@ -12,7 +12,6 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 import static starter.Url.invUrl;
 import static starter.Url.userSendOtpUrl;
-import static starter.utils.GenerateToken.tokenUser;
 
 public class SendOtpUser {
 
@@ -21,7 +20,6 @@ public class SendOtpUser {
 
     static {
         requestSpec = SerenityRest.given()
-                .header("Authorization", "Bearer " + tokenUser())
                 .header("Content-Type", "application/json");
     }
 
@@ -50,27 +48,16 @@ public class SendOtpUser {
             case "valid":
                 requestSpec
                         .body(requestBody.toString())
-                        .get(setEndpointSendOtpUser("valid"));
+                        .post(setEndpointSendOtpUser("valid"));
                 break;
             case "invalid":
                 requestSpec
                         .body(requestBody.toString())
-                        .get(setEndpointSendOtpUser("invalid"));
+                        .post(setEndpointSendOtpUser("invalid"));
                 break;
             default:
                 Assert.fail("Unsupported base type: " + baseType);
         }
-    }
-
-    @Step("I send get request to valid send otp user endpoint without token")
-    public void sendSendOtpUserWithoutToken() {
-        JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "iniara@gmail.com");
-
-        SerenityRest.given()
-                .header("Content-Type", "application/json")
-                .body(requestBody.toString())
-                .get(setEndpointSendOtpUser("valid"));
     }
 
     @Step("I receive otp user")

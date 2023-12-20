@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Get Chat By Room Id","As a user I can get chat by room id with valid credentials","ERROR","2023-12-18T02:56:19.7415901+07:00[Asia/Jakarta]","0.0","0.3"
-"Get Chat By Room Id","As a user I can not get chat by room id with invalid endpoint","ERROR","2023-12-18T02:56:20.0867984+07:00[Asia/Jakarta]","0.0","0.16"
-"Get Chat By Room Id","As a user I can not get chat by room id without token","SUCCESS","2023-12-18T02:56:20.2752235+07:00[Asia/Jakarta]","0.0","0.14"
+"Get Chat By Room Id","As a user I can get chat by room id with valid credentials","SUCCESS","2023-12-20T23:19:04.1204923+07:00[Asia/Jakarta]","0.0","0.15"
+"Get Chat By Room Id","As a user I can not get chat by room id with invalid endpoint","SUCCESS","2023-12-20T23:19:04.2770305+07:00[Asia/Jakarta]","0.0","0.09"
+"Get Chat By Room Id","As a user I can not get chat by room id without token","SUCCESS","2023-12-20T23:19:04.3785704+07:00[Asia/Jakarta]","0.0","0.12"

@@ -21,7 +21,6 @@ public class SendOtpAdmin {
 
     static {
         requestSpec = SerenityRest.given()
-                .header("Authorization", "Bearer " + tokenAdmin())
                 .header("Content-Type", "application/json");
     }
 
@@ -44,33 +43,22 @@ public class SendOtpAdmin {
     @Step("I send get request to {String} send otp admin endpoint")
     public void sendPostBaseTypeSendOtpAdminEndpoint(String baseType) {
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "iniara@gmail.com");
+        requestBody.put("email", "qealta@gmail.com");
 
         switch (baseType) {
             case "valid":
                 requestSpec
                         .body(requestBody.toString())
-                        .get(setEndpointSendOtpAdmin("valid"));
+                        .post(setEndpointSendOtpAdmin("valid"));
                 break;
             case "invalid":
                 requestSpec
                         .body(requestBody.toString())
-                        .get(setEndpointSendOtpAdmin("invalid"));
+                        .post(setEndpointSendOtpAdmin("invalid"));
                 break;
             default:
                 Assert.fail("Unsupported base type: " + baseType);
         }
-    }
-
-    @Step("I send post request to valid send otp admin endpoint without token")
-    public void sendOtpAdminWithoutToken() {
-        JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "qealta@gmail.com");
-
-        SerenityRest.given()
-                .header("Content-Type", "application/json")
-                .body(requestBody.toString())
-                .get(setEndpointSendOtpAdmin("valid"));
     }
 
     @Step("I receive otp admin")

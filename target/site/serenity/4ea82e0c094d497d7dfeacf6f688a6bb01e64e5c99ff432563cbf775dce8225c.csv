@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Notification","As an admin I can not get notif with invalid endpoint","SUCCESS","2023-12-18T02:56:13.5480969+07:00[Asia/Jakarta]","0.0","0.14"
-"Notification","As an admin I can not get notif without token","SUCCESS","2023-12-18T02:56:13.704819+07:00[Asia/Jakarta]","0.0","0.13"
+"Notification","As an admin I can not get notif with invalid endpoint","SUCCESS","2023-12-20T23:18:54.8887419+07:00[Asia/Jakarta]","0.0","0.1"
+"Notification","As an admin I can not get notif without token","SUCCESS","2023-12-20T23:18:55.0122829+07:00[Asia/Jakarta]","0.0","0.09"

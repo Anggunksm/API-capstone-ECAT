@@ -20,10 +20,10 @@ public class GetComplaintByStatusSteps {
         getComplaintByStatus.sendGetBaseTypeGetAllComplaintStatusEndpoint(baseType);
     }
 
-//    @And("I receive list of unsolved complaint")
-//    public void receiveListUnsolvedComplaint() {
-//        getComplaintByStatus.receiveListUnsolvedComplaint();
-//    }
+    @And("I receive list of unsolved complaint")
+    public void receiveListUnsolvedComplaint() {
+        getComplaintByStatus.receiveListUnsolvedComplaint();
+    }
 
     @And("I receive list of solved complaint")
     public void receiveListSolvedComplaint() {
