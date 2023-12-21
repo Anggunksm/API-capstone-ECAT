@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Create Complaint","As a user I can not create complaint with invalid endpoint","SUCCESS","2023-12-20T23:19:07.0239009+07:00[Asia/Jakarta]","0.0","0.17"
+"Create Complaint","As a user I can not create complaint without attachment","SUCCESS","2023-12-20T23:19:13.6064864+07:00[Asia/Jakarta]","0.0","0.11"
+"Create Complaint","As a user I can not create complaint without login","SUCCESS","2023-12-20T23:19:13.7270137+07:00[Asia/Jakarta]","0.0","0.3"

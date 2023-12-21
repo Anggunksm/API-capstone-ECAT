@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Create Complaint","As a user I can not create complaint with invalid ID","SUCCESS","2023-12-20T23:19:07.2019603+07:00[Asia/Jakarta]","0.0","1.82"
+"Create Complaint","As a user I can not create complaint without title","SUCCESS","2023-12-20T23:19:09.0278373+07:00[Asia/Jakarta]","0.0","1.61"
+"Create Complaint","As a user I can not create complaint without content","SUCCESS","2023-12-20T23:19:10.6563051+07:00[Asia/Jakarta]","0.0","2.94"
