@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "$ref": "#/definitions/SuccessSendOtpUserResponse",
+  "$ref": "#/definitions/SuccessGetOtpUserResponse",
   "definitions": {
-    "SuccessSendOtpUserResponse": {
+    "SuccessGetOtpUserResponse": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
@@ -17,7 +17,7 @@
         "meta",
         "results"
       ],
-      "title": "SuccessSendOtpUserResponse"
+      "title": "SuccessGetOtpUserResponse"
     },
     "Meta": {
       "type": "object",
@@ -46,17 +46,12 @@
         "userId": {
           "type": "string"
         },
-        "otp": {
-          "type": "string",
-          "format": "integer"
-        },
         "token": {
           "type": "string"
         }
       },
       "required": [
         "id",
-        "otp",
         "token",
         "userId"
       ],

@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Update News","As an admin I can update news with valid credentials","SUCCESS","2023-12-21T10:46:47.4764902+07:00[Asia/Jakarta]","0.0","0.13"
+"Update News","As an admin I cannot update news with invalid API Endpoint","SUCCESS","2023-12-21T10:46:47.6225012+07:00[Asia/Jakarta]","0.0","0.09"
+"Update News","As an admin i cannot update news with invalid request","SUCCESS","2023-12-21T10:46:47.7285086+07:00[Asia/Jakarta]","0.0","0.1"
+"Update News","As an admin i cannot update news with invalid json data","SUCCESS","2023-12-21T10:46:47.8555168+07:00[Asia/Jakarta]","0.0","0.09"
+"Update News","As an admin i cannot update news with invalid token","SUCCESS","2023-12-21T10:46:47.972526+07:00[Asia/Jakarta]","0.0","0.16"
+"Update News","As an admin i cannot update news with invalid credentials","SUCCESS","2023-12-21T10:46:48.1605409+07:00[Asia/Jakarta]","0.0","0.19"

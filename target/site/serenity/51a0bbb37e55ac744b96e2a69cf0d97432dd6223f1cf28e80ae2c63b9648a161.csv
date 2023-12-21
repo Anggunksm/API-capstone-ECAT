@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Create News","As an admin I can create news with valid credentials","SUCCESS","2023-12-21T10:46:44.7992982+07:00[Asia/Jakarta]","0.0","0.16"
+"Create News","As an admin I cannot create news with invalid API Endpoint","SUCCESS","2023-12-21T10:46:44.9813085+07:00[Asia/Jakarta]","0.0","0.19"
+"Create News","As an admin i cannot create news with invalid json data","SUCCESS","2023-12-21T10:46:45.1973247+07:00[Asia/Jakarta]","0.0","0.12"
+"Create News","As an admin i cannot create news with invalid token","SUCCESS","2023-12-21T10:46:45.3423376+07:00[Asia/Jakarta]","0.0","0.11"

@@ -59,19 +59,19 @@
           "type": "string"
         },
         "userId": {
-          "type": "string"
+          "$ref": "#/definitions/UserID"
         },
         "name": {
-          "type": "string"
+          "$ref": "#/definitions/Name"
         },
         "photoImage": {
           "type": "string"
         },
         "category": {
-          "type": "string"
+          "$ref": "#/definitions/Category"
         },
         "title": {
-          "type": "string"
+          "$ref": "#/definitions/Title"
         },
         "content": {
           "type": "string"
@@ -121,14 +121,45 @@
       ],
       "title": "Address"
     },
+    "Category": {
+      "type": "string",
+      "enum": [
+        "Lalu Lintas",
+        "Fasilitas Umum"
+      ],
+      "title": "Category"
+    },
+    "Name": {
+      "type": "string",
+      "enum": [
+        "ara",
+        "Innaka Dylee"
+      ],
+      "title": "Name"
+    },
     "Status": {
       "type": "string",
       "enum": [
         "SEND",
-        "Selesai",
-        "Diproses"
+        "PROCESS"
       ],
       "title": "Status"
+    },
+    "Title": {
+      "type": "string",
+      "enum": [
+        "lingkungan",
+        "Kemacetan"
+      ],
+      "title": "Title"
+    },
+    "UserID": {
+      "type": "string",
+      "enum": [
+        "VQ0fXT",
+        "A6fbac"
+      ],
+      "title": "UserID"
     }
   }
 }

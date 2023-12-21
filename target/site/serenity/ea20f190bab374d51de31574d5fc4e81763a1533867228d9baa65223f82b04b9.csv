@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Update Photo Profile","As a user i can update photo profile with valid credentials","SUCCESS","2023-12-21T10:46:57.3543136+07:00[Asia/Jakarta]","0.0","0.31"
+"Update Photo Profile","As a user I cannot update photo profile invalid API Endpoint","SUCCESS","2023-12-21T10:46:57.6793346+07:00[Asia/Jakarta]","0.0","0.11"
+"Update Photo Profile","As a user I cannot update photo profile with invalid request method","SUCCESS","2023-12-21T10:46:57.7973444+07:00[Asia/Jakarta]","0.0","0.14"
+"Update Photo Profile","As a user I cannot update photo profile with invalid token","SUCCESS","2023-12-21T10:46:57.9513559+07:00[Asia/Jakarta]","0.0","0.12"
+"Update Photo Profile","As a user I cannot update photo profile with invalid json data","SUCCESS","2023-12-21T10:46:58.0863627+07:00[Asia/Jakarta]","0.0","0.07"
+"Update Photo Profile","As a user I cannot update photo profile with invalid request credentials","SUCCESS","2023-12-21T10:46:58.1703713+07:00[Asia/Jakarta]","0.0","0.08"

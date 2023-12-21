@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search User By Id","As a user I can Search User By Id with valid credentials","SUCCESS","2023-12-21T10:46:56.3392379+07:00[Asia/Jakarta]","0.0","0.12"
+"Search User By Id","As a user I cannot Search User By Id with invalid Api Endpoint","SUCCESS","2023-12-21T10:46:56.4722487+07:00[Asia/Jakarta]","0.0","0.08"
+"Search User By Id","As a user I cannot Search User By Id with invalid token","SUCCESS","2023-12-21T10:46:56.5682534+07:00[Asia/Jakarta]","0.0","0.12"
+"Search User By Id","As a user I cannot Search User By Id with invalid credentials","SUCCESS","2023-12-21T10:46:56.7042689+07:00[Asia/Jakarta]","0.0","0.09"

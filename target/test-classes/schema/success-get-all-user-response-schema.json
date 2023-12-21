@@ -87,8 +87,8 @@
     "ImageURL": {
       "type": "string",
       "enum": [
-        "",
-        "e8p1hohxztf8hdramtgv.png"
+        "gttfz27zbu6rtuulbeen.jpg",
+        ""
       ],
       "title": "ImageURL"
     }

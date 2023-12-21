@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"OTP Admin","As an admin I can not send otp with invalid endpoint","SUCCESS","2023-12-20T23:18:58.0642107+07:00[Asia/Jakarta]","0.0","0.09"
+"OTP Admin","As an admin I can not send otp with invalid endpoint","SUCCESS","2023-12-21T10:46:52.1635538+07:00[Asia/Jakarta]","0.0","0.17"

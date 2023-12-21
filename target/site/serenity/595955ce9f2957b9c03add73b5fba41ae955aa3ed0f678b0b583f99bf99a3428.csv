@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get All Admin","As an admin I can get all admin with valid credentials","SUCCESS","2023-12-21T10:46:19.893994+07:00[Asia/Jakarta]","0.0","7.99"
+"Get All Admin","As an admin I cannot get all admin with invalid Api Endpoint","SUCCESS","2023-12-21T10:46:27.9392786+07:00[Asia/Jakarta]","0.0","0.23"
+"Get All Admin","As an admin I cannot get all admin with invalid token","SUCCESS","2023-12-21T10:46:28.2092909+07:00[Asia/Jakarta]","0.0","0.19"
+"Get All Admin","As an admin I cannot get all admin with invalid credentials","SUCCESS","2023-12-21T10:46:28.4363066+07:00[Asia/Jakarta]","0.0","0.13"

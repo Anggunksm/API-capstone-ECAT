@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Complaint Statistic","As an admin I can get complaint statistic with valid credentials","FAILURE","2023-12-20T23:18:54.0118644+07:00[Asia/Jakarta]","0.0","0.13"
-"Complaint Statistic","As an admin I can not get complaint statistic with invalid endpoint","FAILURE","2023-12-20T23:18:54.1574087+07:00[Asia/Jakarta]","0.0","0.16"
-"Complaint Statistic","As an admin I can not get complaint statistic without token","SUCCESS","2023-12-20T23:18:54.3404864+07:00[Asia/Jakarta]","0.0","0.1"
+"Complaint Statistic","As an admin I can get complaint statistic with valid credentials","SUCCESS","2023-12-21T10:46:43.9982348+07:00[Asia/Jakarta]","0.0","0.11"
+"Complaint Statistic","As an admin I can not get complaint statistic with invalid endpoint","SUCCESS","2023-12-21T10:46:44.116246+07:00[Asia/Jakarta]","0.0","0.09"
+"Complaint Statistic","As an admin I can not get complaint statistic without token","SUCCESS","2023-12-21T10:46:44.2262512+07:00[Asia/Jakarta]","0.0","0.1"
