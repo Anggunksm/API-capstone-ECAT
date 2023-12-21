@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get All News","As a user I can get all news with valid credentials","SUCCESS","2023-12-21T10:47:15.6133299+07:00[Asia/Jakarta]","0.0","0.38"
+"Get All News","As a user I cannot get all news with invalid Api Endpoint","SUCCESS","2023-12-21T10:47:16.0373608+07:00[Asia/Jakarta]","0.0","0.16"
+"Get All News","As a user I cannot get all news with invalid token","SUCCESS","2023-12-21T10:47:16.2203726+07:00[Asia/Jakarta]","0.0","0.1"
+"Get All News","As a user I cannot get all news with invalid credentials","SUCCESS","2023-12-21T10:47:16.3373806+07:00[Asia/Jakarta]","0.0","0.13"
+"Search News","As a user I cannot search news with invalid Api Endpoint","SUCCESS","2023-12-21T10:47:16.5053934+07:00[Asia/Jakarta]","0.0","0.18"
+"Search News","As a user I cannot search news with invalid token","SUCCESS","2023-12-21T10:47:16.7504102+07:00[Asia/Jakarta]","0.0","0.61"
+"Search News","As a user I cannot search news with invalid credentials","SUCCESS","2023-12-21T10:47:17.5754715+07:00[Asia/Jakarta]","0.0","0.37"

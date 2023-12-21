@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: starter.CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 165, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 111.185 s <<< FAILURE! - in starter.CucumberTestSuite
+As an admin I can not update admin with registered email(Update Admin)  Time elapsed: 0.251 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <409> but was <200>.
+
+
+As an admin I can not update admin with registered username(Update Admin)  Time elapsed: 0.305 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <409> but was <200>.
+
+
+As a user I can not get all category without token(Get All Category)  Time elapsed: 0.119 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <200>.
+
+
+As a user I can not get category by id without token(Get Category By Id)  Time elapsed: 0.032 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <200>.
+
+
+As a user I can create room chat with valid credentials(Create Room)  Time elapsed: 0.049 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <200>.
+
+
+As a user I can not get all faq without token(FAQ)  Time elapsed: 0.029 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <200>.
+
+

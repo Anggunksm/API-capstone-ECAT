@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search News","As an admin I cannot search news with invalid Api Endpoint","SUCCESS","2023-12-21T10:46:47.0394604+07:00[Asia/Jakarta]","0.0","0.12"
+"Search News","As an admin I cannot search news with invalid token","SUCCESS","2023-12-21T10:46:47.1754685+07:00[Asia/Jakarta]","0.0","0.16"
+"Search News","As an admin I cannot search news with invalid credentials","SUCCESS","2023-12-21T10:46:47.3604832+07:00[Asia/Jakarta]","0.0","0.1"
+"Search News","As a user I cannot search news with invalid Api Endpoint","SUCCESS","2023-12-21T10:47:16.5053934+07:00[Asia/Jakarta]","0.0","0.18"
+"Search News","As a user I cannot search news with invalid token","SUCCESS","2023-12-21T10:47:16.7504102+07:00[Asia/Jakarta]","0.0","0.61"
+"Search News","As a user I cannot search news with invalid credentials","SUCCESS","2023-12-21T10:47:17.5754715+07:00[Asia/Jakarta]","0.0","0.37"

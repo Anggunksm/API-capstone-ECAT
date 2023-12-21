@@ -24,4 +24,14 @@ public class JsonSchema {
     public static final String SUCCESS_GET_CHAT_BY_ID_RESPONSE_SCHEMA = "schema/success-get-chat-by-room-id-response-schema.json";
     public static final String SUCCESS_CREATE_ROOM_CHAT_RESPONSE_SCHEMA = "schema/success-create-room-chat-response-schema.json";
     public static final String SUCCESS_GET_OTP_ADMIN_RESPONSE_SCHEMA = "schema/success-get-otp-admin-response-schema.json";
+
+    public static final String SEARCH_USER_BY_ID = "schema/search-user-by-id-schema.json";
+    public static final String RESET_PASSWORD_SCHEMA = "schema/reset-password-schema.json";
+    public static final String UPDATE_PHOTO_PROFILE_SCHEMA = "schema/update-photo-profile-schema.json";
+    public static final String GET_ALL_ADMIN_SCHEMA = "schema/get-all-admin-schema.json";
+    public static final String GET_ALL_NEWS_SCHEMA = "schema/news/get-all-news.json";
+    public static final String CREATE_NEWS_SCHEMA = "schema/news/create-news-schema.json";
+    public static final String SEARCH_NEWS_SCHEMA = "schema/news/search-news-schema.json";
+    public static final String UPDATE_USER_SCHEMA = "schema/update-user-schema.json";
+    public static final String REGISTER_RESPONSE_SCHEMA = "schema/user/register-response-schema.json";
 }

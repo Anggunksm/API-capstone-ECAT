@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Get Complaint By Id" skipped="0" tests="2" time="0.33" timestamp="2023-12-21 10:47:14"><testcase name="As a user I can get complaint by id with valid credentials"/><testcase name="As a user I can not get complaint by id with invalid endpoint"/></testsuite>

@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Reset Password","As a user I can reset password with valid credentials","SUCCESS","2023-12-21T10:46:55.4191794+07:00[Asia/Jakarta]","0.0","0.13"
+"Reset Password","As a user I cannot reset password with invalid API Endpoint","SUCCESS","2023-12-21T10:46:55.5721793+07:00[Asia/Jakarta]","0.0","0.1"
+"Reset Password","As a user I cannot reset password with invalid request method","SUCCESS","2023-12-21T10:46:55.7051928+07:00[Asia/Jakarta]","0.0","0.12"
+"Reset Password","As a user I cannot reset password with invalid token","SUCCESS","2023-12-21T10:46:55.8642051+07:00[Asia/Jakarta]","0.0","0.12"
+"Reset Password","As a user I cannot reset password with invalid json data","SUCCESS","2023-12-21T10:46:56.0332152+07:00[Asia/Jakarta]","0.0","0.13"
+"Reset Password","As a user I cannot reset password with invalid request credentials","SUCCESS","2023-12-21T10:46:56.1892274+07:00[Asia/Jakarta]","0.0","0.12"

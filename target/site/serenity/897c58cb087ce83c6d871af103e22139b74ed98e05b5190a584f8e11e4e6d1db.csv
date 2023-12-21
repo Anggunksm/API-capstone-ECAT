@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Get All Category","As a user I can get all category with valid credentials","SUCCESS","2023-12-20T23:19:02.7700828+07:00[Asia/Jakarta]","0.0","0.21"
-"Get All Category","As a user I can not get all category with invalid endpoint","SUCCESS","2023-12-20T23:19:02.9891386+07:00[Asia/Jakarta]","0.0","0.1"
-"Get All Category","As a user I can not get all category without token","FAILURE","2023-12-20T23:19:03.1091961+07:00[Asia/Jakarta]","0.0","0.15"
+"Get All Category","As a user I can get all category with valid credentials","SUCCESS","2023-12-21T10:47:04.1305658+07:00[Asia/Jakarta]","0.0","0.37"
+"Get All Category","As a user I can not get all category with invalid endpoint","SUCCESS","2023-12-21T10:47:04.5155959+07:00[Asia/Jakarta]","0.0","0.07"
+"Get All Category","As a user I can not get all category without token","FAILURE","2023-12-21T10:47:04.6025987+07:00[Asia/Jakarta]","0.0","0.12"

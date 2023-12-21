@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "meta": {
+          "$ref": "#/definitions/Meta"
+        },
+        "results": {
+          "$ref": "#/definitions/Results"
+        }
+      },
+      "required": [
+        "meta",
+        "results"
+      ],
+      "title": "Welcome"
+    },
+    "Meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "success": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "message",
+        "success"
+      ],
+      "title": "Meta"
+    },
+    "Results": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "adminId": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "fullname": {
+          "type": "string"
+        },
+        "photoImage": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "imageUrl": {
+          "type": "string"
+        },
+        "feedback": {
+          "type": "null"
+        },
+        "likes": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "adminId",
+        "category",
+        "content",
+        "date",
+        "feedback",
+        "fullname",
+        "id",
+        "imageUrl",
+        "likes",
+        "photoImage",
+        "title"
+      ],
+      "title": "Results"
+    }
+  }
+}

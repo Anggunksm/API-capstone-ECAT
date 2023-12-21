@@ -154,7 +154,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [];
+            var requirementsTree = [{"text":"News","type":"capability","href":"61330f385dddd6257cc9f2c0768d4911fef1c16ff55b262ee4a3e1c1392ab409.html","nodes":[{"text":"Get All News","type":"feature","href":"144714b95a7271c19ce5e6c657e53e22412cb5b247722941cd684d71b52df805.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-check-circle-fill success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e8 scenarios\u003c/span\u003e"]},{"text":"Search News","type":"feature","href":"d402e216be9fe206ee0d285f2717117b296fcc4755838e64cf42a71c12e20e82.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-check-circle-fill success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e6 scenarios\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-check-circle-fill success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e2 features\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -201,6 +201,7 @@
             <span class="breadcrumbs">
             <a href='index.html'>Home</a> > <a href="capabilities.html">Requirements</a>
 
+                > <a href="e4f29785ce0a0ba79b895bc7fbeb5861d86e0a6cb48db30bbb09f57a7171956a.html">User</a>
 
 
                     > <span class="truncate-40">News</span>
@@ -231,7 +232,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated </span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 21-12-2023 10:46</span>
     <br style="clear:left"/>
 </div>
 
@@ -285,6 +286,9 @@
                                                 <h3>Feature Coverage By Scenario</h3>
 
                                                 <!-- REQUIREMENTS PIE CHART -->
+                                                    <div class="chart-container" style="position: relative; width:30vw">
+                                                        <canvas id="requirementChart" width="300" height="300"></canvas>
+                                                    </div>
 
                                             </div>
                                             <div class="col-sm-8">
@@ -302,60 +306,60 @@
                     <td>
                         <i class="bi bi-card-checklist"></i> Number of Scenarios
                     </td>
-                    <td>0</td>
+                    <td>14</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-caret-right"></i> Total Number of Test Cases
                     </td>
-                    <td>0</td>
+                    <td>14</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-flag-fill"></i> Tests Started
                     </td>
-                    <td></td>
+                    <td>Dec 21, 2023 10:46:45</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-stop-circle"></i> Tests
                         Finished
                     </td>
-                    <td></td>
+                    <td>Dec 21, 2023 10:47:17</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-stopwatch"></i> Total
                         Duration
                     </td>
-                    <td>0ms</td>
+                    <td>32s</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-trophy"></i> Fastest Test
                     </td>
-                    <td>0ms</td>
+                    <td>94ms</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-skip-start"></i> Slowest
                         Test
                     </td>
-                    <td>0ms</td>
+                    <td>675ms</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-stopwatch"></i> Average
                         Execution Time
                     </td>
-                    <td>0ms</td>
+                    <td>260ms</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-stopwatch-fill"></i> Total
                         Execution Time
                     </td>
-                    <td>0ms</td>
+                    <td>3s</td>
                 </tr>
                 </tbody>
             </table>
@@ -374,6 +378,9 @@
                                             <div class="col-sm-4">
                                                 <h3>Feature Coverage By Scenario</h3>
                                                 <!-- TEST RESULT PIE CHART -->
+                                                    <div class="chart-container" style="position: relative; width:30vw">
+                                                        <canvas id="resultChart" width="300" height="300"></canvas>
+                                                    </div>
                                             </div>
                                             <div class="col-sm-4">
                                                 <h4><i class="bi bi-check-square"></i> Test Outcomes</h4>
@@ -405,22 +412,22 @@
                     <td>
                         <i class="bi bi-card-checklist"></i> Number of Scenarios
                     </td>
-                    <td>0</td>
+                    <td>14</td>
                     <td>
                         <i class="bi bi-stopwatch"></i> Total
                         Duration
                     </td>
-                    <td>0ms</td>
+                    <td>32s</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-caret-right"></i> Total Number of Test Cases
                     </td>
-                    <td>0</td>
+                    <td>14</td>
                     <td>
                         <i class="bi bi-trophy"></i> Fastest Test
                     </td>
-                    <td>0ms</td>
+                    <td>94ms</td>
                 </tr>
                 <tr scope="row">
                     <td>
@@ -431,30 +438,30 @@
                         <i class="bi bi-skip-start"></i> Slowest
                         Test
                     </td>
-                    <td>0ms</td>
+                    <td>675ms</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-flag-fill"></i> Tests Started
                     </td>
-                    <td></td>
+                    <td>Dec 21, 2023 10:46:45</td>
                     <td>
                         <i class="bi bi-stopwatch"></i> Average
                         Execution Time
                     </td>
-                    <td>0ms</td>
+                    <td>260ms</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-stop-circle"></i> Tests
                         Finished
                     </td>
-                    <td></td>
+                    <td>Dec 21, 2023 10:47:17</td>
                     <td>
                         <i class="bi bi-stopwatch-fill"></i> Total
                         Execution Time
                     </td>
-                    <td>0ms</td>
+                    <td>3s</td>
                 </tr>
                 </tbody>
             </table>
@@ -463,7 +470,231 @@
 
                                                 <h3><i class="bi bi-gear"></i> Automated Tests</h3>
 
-                                                    No automated tests were executed
+                                                    <table class="scenario-result-table table" id="scenario-results">
+                                                        <thead>
+                                                        <tr>
+                                                            <th>feature</th>
+                                                            <th class="test-name-column">Scenario</th>
+                                                            <th>Context</th>
+                                                            <th>Steps</th>
+                                                            <th>Started</th>
+                                                            <th>Total Duration</th>
+                                                            <th>Result</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                    <td>
+                                                                            <a href="144714b95a7271c19ce5e6c657e53e22412cb5b247722941cd684d71b52df805.html">Get All News</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="429f90ad23b71e7f93a9a797538a3c34ad92337e31d05babdcf86e5dbf403356.html">As an admin I can get all news with valid credentials</a>
+                                                                    </td>
+                                                                    <td><span class='context-icon'><i class='bi bi-windows' title='Windows'></i></span><span style="display:none">Windows</span> </td>
+                                                                    <td>4</td>
+                                                                    <td>10:46:45</td>
+                                                                    <td>675ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                    <td>
+                                                                            <a href="144714b95a7271c19ce5e6c657e53e22412cb5b247722941cd684d71b52df805.html">Get All News</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="f9a0b95570f21be5f26e0f8001c096b2666781830e3cae5bf94b082e5e84ae41.html">As an admin I cannot get all news with invalid Api Endpoint</a>
+                                                                    </td>
+                                                                    <td><span class='context-icon'><i class='bi bi-windows' title='Windows'></i></span><span style="display:none">Windows</span> </td>
+                                                                    <td>4</td>
+                                                                    <td>10:46:46</td>
+                                                                    <td>339ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                    <td>
+                                                                            <a href="144714b95a7271c19ce5e6c657e53e22412cb5b247722941cd684d71b52df805.html">Get All News</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="e0d69b9f7e5819ca08c0ced2cc5528f800c292bd20d4a7adce6333941e6df29f.html">As an admin I cannot get all news with invalid token</a>
+                                                                    </td>
+                                                                    <td><span class='context-icon'><i class='bi bi-windows' title='Windows'></i></span><span style="display:none">Windows</span> </td>
+                                                                    <td>4</td>
+                                                                    <td>10:46:46</td>
+                                                                    <td>220ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                    <td>
+                                                                            <a href="144714b95a7271c19ce5e6c657e53e22412cb5b247722941cd684d71b52df805.html">Get All News</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="a1625f51bd21a59aa0a443703cdb75ad9e2001cb9e823087bc0509e9f49185aa.html">As an admin I cannot get all news with invalid credentials</a>
+                                                                    </td>
+                                                                    <td><span class='context-icon'><i class='bi bi-windows' title='Windows'></i></span><span style="display:none">Windows</span> </td>
+                                                                    <td>4</td>
+                                                                    <td>10:46:46</td>
+                                                                    <td>094ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                    <td>
+                                                                            <a href="d402e216be9fe206ee0d285f2717117b296fcc4755838e64cf42a71c12e20e82.html">Search News</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="c9e034bdca9a5ec5f5937ea30fa8173bca37d45d9d7c3b3d34e371973239d930.html">As an admin I cannot search news with invalid Api Endpoint</a>
+                                                                    </td>
+                                                                    <td><span class='context-icon'><i class='bi bi-windows' title='Windows'></i></span><span style="display:none">Windows</span> </td>
+                                                                    <td>4</td>
+                                                                    <td>10:46:47</td>
+                                                                    <td>121ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                    <td>
+                                                                            <a href="d402e216be9fe206ee0d285f2717117b296fcc4755838e64cf42a71c12e20e82.html">Search News</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="1e37a2af07415d8ea151ad0eb8cfde3c6b694bc770c7561cfd75a6cefbe72d7f.html">As an admin I cannot search news with invalid token</a>
+                                                                    </td>
+                                                                    <td><span class='context-icon'><i class='bi bi-windows' title='Windows'></i></span><span style="display:none">Windows</span> </td>
+                                                                    <td>4</td>
+                                                                    <td>10:46:47</td>
+                                                                    <td>163ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                    <td>
+                                                                            <a href="d402e216be9fe206ee0d285f2717117b296fcc4755838e64cf42a71c12e20e82.html">Search News</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="8fb2c05b2831f7c9b34eb6a9a75ef8c8cfcebefa287acab31de75a9c1eb51682.html">As an admin I cannot search news with invalid credentials</a>
+                                                                    </td>
+                                                                    <td><span class='context-icon'><i class='bi bi-windows' title='Windows'></i></span><span style="display:none">Windows</span> </td>
+                                                                    <td>4</td>
+                                                                    <td>10:46:47</td>
+                                                                    <td>096ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                    <td>
+                                                                            <a href="144714b95a7271c19ce5e6c657e53e22412cb5b247722941cd684d71b52df805.html">Get All News</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="349bfa6449fec0ca646146f4b71c6418560a52760097401ba4000a68511af843.html">As a user I can get all news with valid credentials</a>
+                                                                    </td>
+                                                                    <td><span class='context-icon'><i class='bi bi-windows' title='Windows'></i></span><span style="display:none">Windows</span> </td>
+                                                                    <td>4</td>
+                                                                    <td>10:47:15</td>
+                                                                    <td>384ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                    <td>
+                                                                            <a href="144714b95a7271c19ce5e6c657e53e22412cb5b247722941cd684d71b52df805.html">Get All News</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="1a6b9fff8c96e11d9f05621497a37457e53b1359676216f6bf75edaa081bde4c.html">As a user I cannot get all news with invalid Api Endpoint</a>
+                                                                    </td>
+                                                                    <td><span class='context-icon'><i class='bi bi-windows' title='Windows'></i></span><span style="display:none">Windows</span> </td>
+                                                                    <td>4</td>
+                                                                    <td>10:47:16</td>
+                                                                    <td>160ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                    <td>
+                                                                            <a href="144714b95a7271c19ce5e6c657e53e22412cb5b247722941cd684d71b52df805.html">Get All News</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="c1a9bf997bf22a1d21d9701568204d323e35082f53f82ecbc104f406ae670b33.html">As a user I cannot get all news with invalid token</a>
+                                                                    </td>
+                                                                    <td><span class='context-icon'><i class='bi bi-windows' title='Windows'></i></span><span style="display:none">Windows</span> </td>
+                                                                    <td>4</td>
+                                                                    <td>10:47:16</td>
+                                                                    <td>100ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                    <td>
+                                                                            <a href="144714b95a7271c19ce5e6c657e53e22412cb5b247722941cd684d71b52df805.html">Get All News</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="9d0f3264407ad858ab8cf6c00fb4b4d34c90e75956bb46e81ec578b0919d9046.html">As a user I cannot get all news with invalid credentials</a>
+                                                                    </td>
+                                                                    <td><span class='context-icon'><i class='bi bi-windows' title='Windows'></i></span><span style="display:none">Windows</span> </td>
+                                                                    <td>4</td>
+                                                                    <td>10:47:16</td>
+                                                                    <td>132ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                    <td>
+                                                                            <a href="d402e216be9fe206ee0d285f2717117b296fcc4755838e64cf42a71c12e20e82.html">Search News</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="7ace2373cc07d832d45d332b229176c26ef0f8473687b6785ec8190c49cf94c7.html">As a user I cannot search news with invalid Api Endpoint</a>
+                                                                    </td>
+                                                                    <td><span class='context-icon'><i class='bi bi-windows' title='Windows'></i></span><span style="display:none">Windows</span> </td>
+                                                                    <td>4</td>
+                                                                    <td>10:47:16</td>
+                                                                    <td>182ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                    <td>
+                                                                            <a href="d402e216be9fe206ee0d285f2717117b296fcc4755838e64cf42a71c12e20e82.html">Search News</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="00e482fe6061ccd7712d770d2155f4491a8c03db1394f38353ef496abdd3b38e.html">As a user I cannot search news with invalid token</a>
+                                                                    </td>
+                                                                    <td><span class='context-icon'><i class='bi bi-windows' title='Windows'></i></span><span style="display:none">Windows</span> </td>
+                                                                    <td>4</td>
+                                                                    <td>10:47:16</td>
+                                                                    <td>610ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                    <td>
+                                                                            <a href="d402e216be9fe206ee0d285f2717117b296fcc4755838e64cf42a71c12e20e82.html">Search News</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="b80cbf09483a4770e0508f76b622c793d33114451f9daf91341b930e103d85f9.html">As a user I cannot search news with invalid credentials</a>
+                                                                    </td>
+                                                                    <td><span class='context-icon'><i class='bi bi-windows' title='Windows'></i></span><span style="display:none">Windows</span> </td>
+                                                                    <td>4</td>
+                                                                    <td>10:47:17</td>
+                                                                    <td>371ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                        </tbody>
+                                                    </table>
 
                                             </div>
                                         </div>
@@ -477,6 +708,27 @@
                                             </div>
                                         </div>
 
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Tags</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                    <a href="3447f77379c16a5bb29fa6a6fe37b4b4d20fe344b053c4ae136be0a1e7290834.html">
+                                    <span class="tag-badge badge" style="background-color:#b0cf73; margin:1em;padding:4px;">
+                                        <i class="bi bi-tag-fill"></i> Admin&nbsp;&nbsp;&nbsp;7
+                                    </span>
+                                    </a>
+                                    <a href="2e8f1269fe45189870d5526ad4ad731be44b38828d72bce8e524d95df0079f07.html">
+                                    <span class="tag-badge badge" style="background-color:#b0cf73; margin:1em;padding:4px;">
+                                        <i class="bi bi-tag-fill"></i> User&nbsp;&nbsp;&nbsp;7
+                                    </span>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
                                     </div>
                                 </div>
                             </div>
@@ -517,7 +769,7 @@
             datasets: [{
                 label: 'Test Results',
                 fill: false,
-                data: [{meta: 'Passing tests', value: 0}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
+                data: [{meta: 'Passing tests', value: 14}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
                 backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                 borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                 borderWidth: 1,
@@ -568,7 +820,7 @@
                         ctx.font = fontSize + "em sans-serif";
                         ctx.textBaseline = "middle";
 
-                        var text = " "
+                        var text = "100%"
                         textX = 10 + Math.round((width - ctx.measureText(text).width) / 2);
                         textY = (height / 2) - 40;
 
@@ -612,7 +864,7 @@
             datasets: [{
                 label: 'Feature Coverage',
                 fill: false,
-                data: [{meta: 'Passing tests', value: 0}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
+                data: [{meta: 'Passing tests', value: 14}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
                 backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                 borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                 borderWidth: 1,
@@ -663,7 +915,7 @@
                         ctx.font = fontSize + "em sans-serif";
                         ctx.textBaseline = "middle";
 
-                        var text = " "
+                        var text = "100%"
                         textX = 10 + Math.round((width - ctx.measureText(text).width) / 2);
                         textY = (height / 2) - 40;
 
@@ -708,7 +960,7 @@
             datasets: [
                 {
                     label: 'Automated',
-                    data: [0,0,0,0,0,0,0,0],
+                    data: [14,0,0,0,0,0,0,0],
                     backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                     borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                     borderWidth: 1
@@ -791,7 +1043,7 @@
             datasets: [{
                 label: 'Number of tests per duration',
                 fill: false,
-                data: ['0','0','0','0','0','0','0','0'],
+                data: ['14','0','0','0','0','0','0','0'],
                 backgroundColor: 'rgba(83, 146, 255,0.5)',
                 borderColor: 'rgba(83, 146, 255, 1)',
             }]

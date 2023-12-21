@@ -46,10 +46,6 @@
         "adminId": {
           "type": "string"
         },
-        "otp": {
-          "type": "string",
-          "format": "integer"
-        },
         "token": {
           "type": "string"
         }
@@ -57,7 +53,6 @@
       "required": [
         "adminId",
         "id",
-        "otp",
         "token"
       ],
       "title": "Results"

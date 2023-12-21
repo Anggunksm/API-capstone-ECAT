@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="starter.CucumberTestSuite" time="111.185" tests="165" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Anggun\API-capstone-ECAT\target\test-classes;D:\Anggun\API-capstone-ECAT\target\API-capstone-ECAT-1.0-SNAPSHOT.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.0\selenium-java-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.0\selenium-api-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.0\selenium-chrome-driver-4.16.0.jar;C:\Users\asus\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.0\selenium-chromium-driver-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.0\selenium-json-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.0\selenium-manager-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.0\selenium-devtools-v118-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.0\selenium-devtools-v119-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.0\selenium-devtools-v120-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.0\selenium-devtools-v85-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.0\selenium-edge-driver-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.0\selenium-firefox-driver-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.0\selenium-http-4.16.0.jar;C:\Users\asus\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.0\selenium-ie-driver-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.0\selenium-remote-driver-4.16.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.0\selenium-os-4.16.0.jar;C:\Users\asus\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.0\selenium-safari-driver-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.0\selenium-support-4.16.0.jar;C:\Users\asus\.m2\repository\net\bytebuddy\byte-buddy\1.11.14\byte-buddy-1.11.14.jar;C:\Users\asus\.m2\repository\ch\qos\logback\logback-classic\1.4.7\logback-classic-1.4.7.jar;C:\Users\asus\.m2\repository\ch\qos\logback\logback-core\1.4.7\logback-core-1.4.7.jar;C:\Users\asus\.m2\repository\org\slf4j\slf4j-api\2.0.4\slf4j-api-2.0.4.jar;C:\Users\asus\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-core\3.6.12\serenity-core-3.6.12.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-model\3.6.12\serenity-model-3.6.12.jar;C:\Users\asus\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\asus\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\asus\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\asus\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\asus\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\asus\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\asus\.m2\repository\com\thoughtworks\xstream\xstream\1.4.20\xstream-1.4.20.jar;C:\Users\asus\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\asus\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\asus\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\asus\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\asus\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\asus\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\asus\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\asus\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\asus\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.22\byte-buddy-agent-1.12.22.jar;C:\Users\asus\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-reports\3.6.12\serenity-reports-3.6.12.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-stats\3.6.12\serenity-stats-3.6.12.jar;C:\Users\asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.7.21\kotlin-stdlib-1.7.21.jar;C:\Users\asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.7.21\kotlin-stdlib-common-1.7.21.jar;C:\Users\asus\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.6.12\serenity-reports-configuration-3.6.12.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\asus\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\asus\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\asus\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\asus\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\asus\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\asus\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\asus\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\asus\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\asus\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\asus\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\asus\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-report-resources\3.6.12\serenity-report-resources-3.6.12.jar;C:\Users\asus\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\asus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\asus\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\asus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\asus\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\asus\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\asus\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\asus\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\asus\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\asus\.m2\repository\io\appium\java-client\8.3.0\java-client-8.3.0.jar;C:\Users\asus\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\asus\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\asus\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\asus\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\asus\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\asus\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\asus\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\asus\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\asus\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\asus\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\asus\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\asus\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\asus\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\asus\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\asus\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\asus\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\asus\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\asus\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\asus\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\asus\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\asus\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\asus\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\asus\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\asus\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\asus\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\asus\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\asus\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\asus\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\asus\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\asus\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\asus\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\asus\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\asus\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\asus\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\asus\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\asus\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-junit\3.6.12\serenity-junit-3.6.12.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-screenplay\3.6.12\serenity-screenplay-3.6.12.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-rest-assured\3.6.12\serenity-rest-assured-3.6.12.jar;C:\Users\asus\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\asus\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\asus\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\asus\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\asus\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\asus\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\asus\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\asus\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\asus\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-cucumber\3.6.12\serenity-cucumber-3.6.12.jar;C:\Users\asus\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\asus\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\asus\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\asus\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\asus\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\asus\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\asus\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\asus\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\asus\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\asus\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\asus\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\asus\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\asus\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\asus\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\asus\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\asus\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\asus\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.6.12\serenity-screenplay-webdriver-3.6.12.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-jbehave\1.46.0\serenity-jbehave-1.46.0.jar;C:\Users\asus\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\asus\.m2\repository\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8.jar;C:\Users\asus\.m2\repository\org\jbehave\jbehave-core\4.4\jbehave-core-4.4.jar;C:\Users\asus\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\asus\.m2\repository\org\hamcrest\hamcrest-integration\1.3\hamcrest-integration-1.3.jar;C:\Users\asus\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\asus\.m2\repository\org\codehaus\plexus\plexus-utils\3.1.0\plexus-utils-3.1.0.jar;C:\Users\asus\.m2\repository\com\github\valfirst\jbehave-junit-runner\2.2.0\jbehave-junit-runner-2.2.0.jar;C:\Users\asus\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\asus\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\asus\.m2\repository\org\codehaus\groovy\groovy-all\2.4.13\groovy-all-2.4.13.jar;C:\Users\asus\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\asus\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\asus\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\asus\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\asus\.m2\repository\io\rest-assured\json-schema-validator\5.3.1\json-schema-validator-5.3.1.jar;C:\Users\asus\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\asus\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\asus\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\asus\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\asus\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\asus\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\asus\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\asus\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\asus\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\asus\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\asus\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\asus\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\asus\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\asus\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\asus\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\asus\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\asus\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\asus\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\asus\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\asus\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\asus\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\asus\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\asus\AppData\Local\Temp\surefire1932517000620539817\surefirebooter12096302749075679531.jar C:\Users\asus\AppData\Local\Temp\surefire1932517000620539817 2023-12-21T10-46-12_851-jvmRun1 surefire14434100582892642882tmp surefire_014827004868041370466tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Anggun\API-capstone-ECAT\target\test-classes;D:\Anggun\API-capstone-ECAT\target\API-capstone-ECAT-1.0-SNAPSHOT.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.0\selenium-java-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.0\selenium-api-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.0\selenium-chrome-driver-4.16.0.jar;C:\Users\asus\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.0\selenium-chromium-driver-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.0\selenium-json-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.0\selenium-manager-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.0\selenium-devtools-v118-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.0\selenium-devtools-v119-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.0\selenium-devtools-v120-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.0\selenium-devtools-v85-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.0\selenium-edge-driver-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.0\selenium-firefox-driver-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.0\selenium-http-4.16.0.jar;C:\Users\asus\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.0\selenium-ie-driver-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.0\selenium-remote-driver-4.16.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\asus\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.0\selenium-os-4.16.0.jar;C:\Users\asus\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.0\selenium-safari-driver-4.16.0.jar;C:\Users\asus\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.0\selenium-support-4.16.0.jar;C:\Users\asus\.m2\repository\net\bytebuddy\byte-buddy\1.11.14\byte-buddy-1.11.14.jar;C:\Users\asus\.m2\repository\ch\qos\logback\logback-classic\1.4.7\logback-classic-1.4.7.jar;C:\Users\asus\.m2\repository\ch\qos\logback\logback-core\1.4.7\logback-core-1.4.7.jar;C:\Users\asus\.m2\repository\org\slf4j\slf4j-api\2.0.4\slf4j-api-2.0.4.jar;C:\Users\asus\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-core\3.6.12\serenity-core-3.6.12.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-model\3.6.12\serenity-model-3.6.12.jar;C:\Users\asus\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\asus\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\asus\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\asus\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\asus\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\asus\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\asus\.m2\repository\com\thoughtworks\xstream\xstream\1.4.20\xstream-1.4.20.jar;C:\Users\asus\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\asus\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\asus\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\asus\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\asus\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\asus\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\asus\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\asus\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\asus\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.22\byte-buddy-agent-1.12.22.jar;C:\Users\asus\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-reports\3.6.12\serenity-reports-3.6.12.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-stats\3.6.12\serenity-stats-3.6.12.jar;C:\Users\asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.7.21\kotlin-stdlib-1.7.21.jar;C:\Users\asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.7.21\kotlin-stdlib-common-1.7.21.jar;C:\Users\asus\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.6.12\serenity-reports-configuration-3.6.12.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\asus\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\asus\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\asus\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\asus\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\asus\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\asus\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\asus\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\asus\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\asus\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\asus\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\asus\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\asus\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-report-resources\3.6.12\serenity-report-resources-3.6.12.jar;C:\Users\asus\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\asus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\asus\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\asus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\asus\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\asus\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\asus\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\asus\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\asus\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\asus\.m2\repository\io\appium\java-client\8.3.0\java-client-8.3.0.jar;C:\Users\asus\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\asus\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\asus\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\asus\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\asus\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\asus\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\asus\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\asus\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\asus\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\asus\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\asus\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\asus\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\asus\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\asus\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\asus\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\asus\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\asus\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\asus\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\asus\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\asus\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\asus\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\asus\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\asus\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\asus\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\asus\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\asus\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\asus\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\asus\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\asus\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\asus\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\asus\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\asus\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\asus\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\asus\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\asus\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\asus\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-junit\3.6.12\serenity-junit-3.6.12.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-screenplay\3.6.12\serenity-screenplay-3.6.12.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-rest-assured\3.6.12\serenity-rest-assured-3.6.12.jar;C:\Users\asus\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\asus\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\asus\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\asus\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\asus\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\asus\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\asus\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\asus\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\asus\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-cucumber\3.6.12\serenity-cucumber-3.6.12.jar;C:\Users\asus\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\asus\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\asus\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\asus\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\asus\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\asus\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\asus\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\asus\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\asus\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\asus\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\asus\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\asus\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\asus\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\asus\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\asus\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\asus\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\asus\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.6.12\serenity-screenplay-webdriver-3.6.12.jar;C:\Users\asus\.m2\repository\net\serenity-bdd\serenity-jbehave\1.46.0\serenity-jbehave-1.46.0.jar;C:\Users\asus\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\asus\.m2\repository\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8.jar;C:\Users\asus\.m2\repository\org\jbehave\jbehave-core\4.4\jbehave-core-4.4.jar;C:\Users\asus\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\asus\.m2\repository\org\hamcrest\hamcrest-integration\1.3\hamcrest-integration-1.3.jar;C:\Users\asus\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\asus\.m2\repository\org\codehaus\plexus\plexus-utils\3.1.0\plexus-utils-3.1.0.jar;C:\Users\asus\.m2\repository\com\github\valfirst\jbehave-junit-runner\2.2.0\jbehave-junit-runner-2.2.0.jar;C:\Users\asus\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\asus\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\asus\.m2\repository\org\codehaus\groovy\groovy-all\2.4.13\groovy-all-2.4.13.jar;C:\Users\asus\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\asus\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\asus\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\asus\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\asus\.m2\repository\io\rest-assured\json-schema-validator\5.3.1\json-schema-validator-5.3.1.jar;C:\Users\asus\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\asus\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\asus\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\asus\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\asus\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\asus\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\asus\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\asus\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\asus\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\asus\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\asus\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\asus\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\asus\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\asus\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\asus\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\asus\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\asus\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\asus\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\asus\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\asus\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\asus\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\asus\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\asus"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Anggun\API-capstone-ECAT"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\asus\AppData\Local\Temp\surefire1932517000620539817\surefirebooter12096302749075679531.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="user.name" value="asus"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\asus\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\asus\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="user.dir" value="D:\Anggun\API-capstone-ECAT"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\asus\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;D:\maven\apache-maven-3.9.4-bin\apache-maven-3.9.4\bin;C:\Program Files\nodejs;C:\Users\asus\AppData\Roaming\npm;C:\Users\asus\AppData\Local\Microsoft\WindowsApps;C:\Users\asus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\asus\AppData\Roaming\npm;C:\Users\asus\AppData\Local\GitHubDesktop\bin;C:\Android\platform-tools;C:\Android\platform-tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="As an admin I can get all admin with valid credentials" classname="Get All Admin" time="8.281"/>
+  <testcase name="As an admin I cannot get all admin with invalid Api Endpoint" classname="Get All Admin" time="0.266"/>
+  <testcase name="As an admin I cannot get all admin with invalid token" classname="Get All Admin" time="0.236"/>
+  <testcase name="As an admin I cannot get all admin with invalid credentials" classname="Get All Admin" time="0.165"/>
+  <testcase name="As an admin I can login with valid credentials" classname="Admin Login" time="1.875"/>
+  <testcase name="As an admin I can not login with invalid endpoint" classname="Admin Login" time="0.558"/>
+  <testcase name="As an admin I can not login with invalid username" classname="Admin Login" time="0.037"/>
+  <testcase name="As an admin I can not login with invalid password" classname="Admin Login" time="0.554"/>
+  <testcase name="As an admin I can not login with empty username" classname="Admin Login" time="0.02"/>
+  <testcase name="As an admin I can not login with empty password" classname="Admin Login" time="0.388"/>
+  <testcase name="As an admin I can not login with integer password" classname="Admin Login" time="0.021"/>
+  <testcase name="As an admin I can not login with get request" classname="Admin Login" time="0.315"/>
+  <testcase name="As an admin I can not login with put request" classname="Admin Login" time="0.106"/>
+  <testcase name="As an admin I can not login with delete request" classname="Admin Login" time="0.446"/>
+  <testcase name="As an admin I can register with valid credentials" classname="Register Admin" time="2.863"/>
+  <testcase name="As an admin I can not register with invalid endpoint" classname="Register Admin" time="0.939"/>
+  <testcase name="As an admin I can not register with username of more than 16 characters" classname="Register Admin" time="1.411"/>
+  <testcase name="As an admin I can not register with empty name" classname="Register Admin" time="0.064"/>
+  <testcase name="As an admin I can not register with empty username" classname="Register Admin" time="0.116"/>
+  <testcase name="As an admin I can not register with empty email" classname="Register Admin" time="0.168"/>
+  <testcase name="As an admin I can not register with empty phone" classname="Register Admin" time="0.281"/>
+  <testcase name="As an admin I can not register with empty password" classname="Register Admin" time="0.875"/>
+  <testcase name="As an admin I can not register with integer password" classname="Register Admin" time="0.388"/>
+  <testcase name="As an admin I can not register with registered email" classname="Register Admin" time="0.212"/>
+  <testcase name="As an admin I can not register with registered username" classname="Register Admin" time="1.243"/>
+  <testcase name="As an admin I can not register with get request" classname="Register Admin" time="2.185"/>
+  <testcase name="As an admin I can not register with put request" classname="Register Admin" time="0.145"/>
+  <testcase name="As an admin I can not register with delete request" classname="Register Admin" time="1.57"/>
+  <testcase name="As an admin I can reset password with valid credentials" classname="Reset Password Admin" time="0.023"/>
+  <testcase name="As an admin I can not reset password with empty new password" classname="Reset Password Admin" time="0.168"/>
+  <testcase name="As an admin I can not reset password with empty confirm password" classname="Reset Password Admin" time="0.368"/>
+  <testcase name="As an admin I can not reset password with empty invalid password" classname="Reset Password Admin" time="0.082"/>
+  <testcase name="As an admin I can not reset password without login" classname="Reset Password Admin" time="0.741"/>
+  <testcase name="As an admin I can search admin by id with valid credentials" classname="Search Admin By Id" time="1.448"/>
+  <testcase name="As an admin I can not search admin by id with invalid endpoint" classname="Search Admin By Id" time="0.027"/>
+  <testcase name="As an admin I can not search admin by id without login" classname="Search Admin By Id" time="0.075"/>
+  <testcase name="As an admin I can not search admin with query params id&amp;name" classname="Search Admin By Id" time="0.149"/>
+  <testcase name="As an admin I can search admin by name with valid credentials" classname="Search Admin By Name" time="0.269"/>
+  <testcase name="As an admin I can not search admin by name with invalid endpoint" classname="Search Admin By Name" time="0.026"/>
+  <testcase name="As an admin I can not search admin by name without login" classname="Search Admin By Name" time="0.036"/>
+  <testcase name="As an admin I can update admin with valid credentials" classname="Update Admin" time="0.076"/>
+  <testcase name="As an admin I can not update admin with invalid endpoint" classname="Update Admin" time="0.029"/>
+  <testcase name="As an admin I can not update admin with invalid id" classname="Update Admin" time="0.03"/>
+  <testcase name="As an admin I can not update admin with username of more than 16 characters" classname="Update Admin" time="0.029"/>
+  <testcase name="As an admin I can not update admin with empty name" classname="Update Admin" time="0.008"/>
+  <testcase name="As an admin I can not update admin with empty username" classname="Update Admin" time="0.016"/>
+  <testcase name="As an admin I can not update admin with empty email" classname="Update Admin" time="0.015"/>
+  <testcase name="As an admin I can not register with empty phone" classname="Update Admin" time="0.032"/>
+  <testcase name="As an admin I can not update admin with empty password" classname="Update Admin" time="0.029"/>
+  <testcase name="As an admin I can not update admin with integer password" classname="Update Admin" time="0.051"/>
+  <testcase name="As an admin I can not update admin with registered email" classname="Update Admin" time="0.251">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;409&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <409> but was <200>.
+
+]]></failure>
+    <system-out><![CDATA[
+@UpdateAdmin @NegativeCase
+Scenario: As an admin I can not update admin with registered email               &amp#27;[90m# src/test/resources/features/admin/auth/update-admin.feature:78&amp#27;[0m
+10:46:42.663 [main] INFO io.cucumber.core.plugin.SerenityReporter -- Running feature from file:///D:/Anggun/API-capstone-ECAT/src/test/resources/features/admin/auth/update-admin.feature
+10:46:42.667 [main] INFO  -- 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+As an admin I can not update admin with registered email(update-admin;as-an-admin-i-can-not-update-admin-with-registered-email)
+--------------------------------------------------------------------------------
+10:46:42.693 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: UpdateAdminSteps.setEndpointUpdateAdmin - I set {String} endpoint for update admin
+10:46:42.693 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I set {String} endpoint for update admin
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m endpoint for update admin&amp#27;[0m                                  &amp#27;[90m# starter.stepdefinitions.admin.auth.UpdateAdminSteps.setEndpointUpdateAdmin(java.lang.String)&amp#27;[0m
+10:46:42.699 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: UpdateAdminSteps.sendPostValidUpdateAdminEndpoint - I send put request with {String} to valid update admin endpoint
+10:46:42.700 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: UpdateAdmin.sendPostValidUpdateAdminEndpoint - I set {String} endpoint for update admin
+10:46:42.701 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I set {String} endpoint for update admin
+10:46:42.714 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {}->http://34.128.69.15:8000
+10:46:42.715 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to 34.128.69.15:8000
+10:46:42.720 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+10:46:42.720 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+10:46:42.721 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+10:46:42.721 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+10:46:42.721 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: PUT /admin/asVTYs HTTP/1.1
+10:46:42.721 [main] DEBUG org.apache.http.wire --  >> "PUT /admin/asVTYs HTTP/1.1[\r][\n]"
+10:46:42.721 [main] DEBUG org.apache.http.wire --  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InFlYWx0YUBnbWFpbC5jb20iLCJleHAiOjE3MDMxMzM4OTMsImlkIjoiYXNWVFlzIiwibmFtZSI6IkFuZ2d1biIsInJvbGUiOiJhZG1pbiJ9.xmYMRpstK6OimqtZ3Xrvo0dmY2iPec1kjgOM8TUJf7s[\r][\n]"
+10:46:42.721 [main] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+10:46:42.721 [main] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+10:46:42.721 [main] DEBUG org.apache.http.wire --  >> "Content-Length: 111[\r][\n]"
+10:46:42.721 [main] DEBUG org.apache.http.wire --  >> "Host: 34.128.69.15:8000[\r][\n]"
+10:46:42.721 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+10:46:42.721 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)[\r][\n]"
+10:46:42.721 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:46:42.721 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+10:46:42.721 [main] DEBUG org.apache.http.headers -- >> PUT /admin/asVTYs HTTP/1.1
+10:46:42.721 [main] DEBUG org.apache.http.headers -- >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InFlYWx0YUBnbWFpbC5jb20iLCJleHAiOjE3MDMxMzM4OTMsImlkIjoiYXNWVFlzIiwibmFtZSI6IkFuZ2d1biIsInJvbGUiOiJhZG1pbiJ9.xmYMRpstK6OimqtZ3Xrvo0dmY2iPec1kjgOM8TUJf7s
+10:46:42.721 [main] DEBUG org.apache.http.headers -- >> Accept: */*
+10:46:42.721 [main] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+10:46:42.721 [main] DEBUG org.apache.http.headers -- >> Content-Length: 111
+10:46:42.721 [main] DEBUG org.apache.http.headers -- >> Host: 34.128.69.15:8000
+10:46:42.721 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+10:46:42.721 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+10:46:42.721 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+10:46:42.721 [main] DEBUG org.apache.http.wire --  >> "{"password":"1234567890","phone":"081234567894","name":"Anggun","email":"qealta@gmail.com","username":"anggun"}"
+10:46:42.882 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+10:46:42.882 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+10:46:42.882 [main] DEBUG org.apache.http.wire --  << "Vary: Origin[\r][\n]"
+10:46:42.882 [main] DEBUG org.apache.http.wire --  << "Date: Thu, 21 Dec 2023 03:46:35 GMT[\r][\n]"
+10:46:42.882 [main] DEBUG org.apache.http.wire --  << "Content-Length: 196[\r][\n]"
+10:46:42.883 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+10:46:42.883 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+10:46:42.883 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+10:46:42.883 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json; charset=UTF-8
+10:46:42.883 [main] DEBUG org.apache.http.headers -- << Vary: Origin
+10:46:42.883 [main] DEBUG org.apache.http.headers -- << Date: Thu, 21 Dec 2023 03:46:35 GMT
+10:46:42.883 [main] DEBUG org.apache.http.headers -- << Content-Length: 196
+10:46:42.883 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+10:46:42.883 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json; charset=UTF-8
+10:46:42.883 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+10:46:42.885 [main] DEBUG org.apache.http.wire --  << "{"meta":{"success":true,"message":"Successfully Updated Admin Data"},"results":{"id":"asVTYs","name":"Anggun","username":"anggun","email":"qealta@gmail.com","phone":"081234567894","imageUrl":""}}[\n]"
+10:46:42.885 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4b77ade1
+10:46:42.885 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+10:46:42.886 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I send put request with {String} to valid update admin endpoint
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send put request with &amp#27;[0m&amp#27;[32m&amp#27;[1m"registered email"&amp#27;[0m&amp#27;[32m to valid update admin endpoint&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.admin.auth.UpdateAdminSteps.sendPostValidUpdateAdminEndpoint(java.lang.String)&amp#27;[0m
+10:46:42.899 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: ResponseSteps.receiveStatusCode409 - I receive status code 409
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Date: Thu, 21 Dec 2023 03:46:35 GMT
+Content-Length: 196
+
+{
+    "meta": {
+        "success": true,
+        "message": "Successfully Updated Admin Data"
+    },
+    "results": {
+        "id": "asVTYs",
+        "name": "Anggun",
+        "username": "anggun",
+        "email": "qealta@gmail.com",
+        "phone": "081234567894",
+        "imageUrl": ""
+    }
+}
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI receive status code 409&amp#27;[0m                                                 &amp#27;[90m# starter.response.ResponseSteps.receiveStatusCode409()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <409> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at starter.response.ResponseBody.receiveStatusCode409(ResponseBody.java:49)
+	at starter.response.ResponseBody$ByteBuddy$OHj2fuEm.receiveStatusCode409$accessor$XqWocZoE(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:518)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:498)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:211)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:198)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:86)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at starter.response.ResponseBody$ByteBuddy$OHj2fuEm.receiveStatusCode409(Unknown Source)
+	at starter.response.ResponseSteps.receiveStatusCode409(ResponseSteps.java:43)
+	at âœ½.I receive status code 409(file:///D:/Anggun/API-capstone-ECAT/src/test/resources/features/admin/auth/update-admin.feature:81)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI receive error message&amp#27;[0m                                                    &amp#27;[90m# starter.response.ResponseSteps.receiveErrorMessage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="As an admin I can not update admin with registered username" classname="Update Admin" time="0.305">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;409&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <409> but was <200>.
+
+]]></failure>
+    <system-out><![CDATA[10:46:43.035 [main] ERROR  -- 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+As an admin I can not update admin with registered email
+-----------------------------------------------------------------------
+10:46:43.039 [main] DEBUG  -- RELATED ISSUES: 
+10:46:43.450 [main] ERROR  --     Test failed at step: I receive status code 409
+10:46:43.451 [main] ERROR  --     1 expectation failed.Expected status code <409> but was <200>.
+10:46:43.493 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Connection 0.0.0.0:58721<->34.128.69.15:8000 closed
+10:46:43.494 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Connection 0.0.0.0:58720<->34.128.69.15:8000 closed
+10:46:43.494 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Connection 0.0.0.0:58719<->34.128.69.15:8000 closed
+10:46:43.494 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Connection 0.0.0.0:58718<->34.128.69.15:8000 closed
+
+@UpdateAdmin @NegativeCase
+Scenario: As an admin I can not update admin with registered username               &amp#27;[90m# src/test/resources/features/admin/auth/update-admin.feature:85&amp#27;[0m
+10:46:43.517 [main] INFO io.cucumber.core.plugin.SerenityReporter -- Running feature from file:///D:/Anggun/API-capstone-ECAT/src/test/resources/features/admin/auth/update-admin.feature
+10:46:43.529 [main] INFO  -- 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+As an admin I can not update admin with registered username(update-admin;as-an-admin-i-can-not-update-admin-with-registered-username)
+--------------------------------------------------------------------------------
+10:46:43.569 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: UpdateAdminSteps.setEndpointUpdateAdmin - I set {String} endpoint for update admin
+10:46:43.570 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I set {String} endpoint for update admin
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m endpoint for update admin&amp#27;[0m                                     &amp#27;[90m# starter.stepdefinitions.admin.auth.UpdateAdminSteps.setEndpointUpdateAdmin(java.lang.String)&amp#27;[0m
+10:46:43.583 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: UpdateAdminSteps.sendPostValidUpdateAdminEndpoint - I send put request with {String} to valid update admin endpoint
+10:46:43.586 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: UpdateAdmin.sendPostValidUpdateAdminEndpoint - I set {String} endpoint for update admin
+10:46:43.586 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I set {String} endpoint for update admin
+10:46:43.614 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {}->http://34.128.69.15:8000
+10:46:43.616 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to 34.128.69.15:8000
+10:46:43.623 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+10:46:43.623 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+10:46:43.623 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+10:46:43.623 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+10:46:43.623 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: PUT /admin/asVTYs HTTP/1.1
+10:46:43.623 [main] DEBUG org.apache.http.wire --  >> "PUT /admin/asVTYs HTTP/1.1[\r][\n]"
+10:46:43.624 [main] DEBUG org.apache.http.wire --  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InFlYWx0YUBnbWFpbC5jb20iLCJleHAiOjE3MDMxMzM4OTMsImlkIjoiYXNWVFlzIiwibmFtZSI6IkFuZ2d1biIsInJvbGUiOiJhZG1pbiJ9.xmYMRpstK6OimqtZ3Xrvo0dmY2iPec1kjgOM8TUJf7s[\r][\n]"
+10:46:43.624 [main] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+10:46:43.624 [main] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+10:46:43.624 [main] DEBUG org.apache.http.wire --  >> "Content-Length: 111[\r][\n]"
+10:46:43.624 [main] DEBUG org.apache.http.wire --  >> "Host: 34.128.69.15:8000[\r][\n]"
+10:46:43.624 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+10:46:43.624 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)[\r][\n]"
+10:46:43.624 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:46:43.624 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+10:46:43.624 [main] DEBUG org.apache.http.headers -- >> PUT /admin/asVTYs HTTP/1.1
+10:46:43.624 [main] DEBUG org.apache.http.headers -- >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InFlYWx0YUBnbWFpbC5jb20iLCJleHAiOjE3MDMxMzM4OTMsImlkIjoiYXNWVFlzIiwibmFtZSI6IkFuZ2d1biIsInJvbGUiOiJhZG1pbiJ9.xmYMRpstK6OimqtZ3Xrvo0dmY2iPec1kjgOM8TUJf7s
+10:46:43.624 [main] DEBUG org.apache.http.headers -- >> Accept: */*
+10:46:43.624 [main] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+10:46:43.624 [main] DEBUG org.apache.http.headers -- >> Content-Length: 111
+10:46:43.624 [main] DEBUG org.apache.http.headers -- >> Host: 34.128.69.15:8000
+10:46:43.624 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+10:46:43.624 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+10:46:43.624 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+10:46:43.624 [main] DEBUG org.apache.http.wire --  >> "{"password":"1234567890","phone":"081234567896","name":"Anggun","email":"qealta@gmail.com","username":"anggun"}"
+10:46:43.805 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+10:46:43.805 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+10:46:43.805 [main] DEBUG org.apache.http.wire --  << "Vary: Origin[\r][\n]"
+10:46:43.805 [main] DEBUG org.apache.http.wire --  << "Date: Thu, 21 Dec 2023 03:46:36 GMT[\r][\n]"
+10:46:43.805 [main] DEBUG org.apache.http.wire --  << "Content-Length: 196[\r][\n]"
+10:46:43.805 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+10:46:43.805 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+10:46:43.805 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+10:46:43.805 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json; charset=UTF-8
+10:46:43.805 [main] DEBUG org.apache.http.headers -- << Vary: Origin
+10:46:43.805 [main] DEBUG org.apache.http.headers -- << Date: Thu, 21 Dec 2023 03:46:36 GMT
+10:46:43.805 [main] DEBUG org.apache.http.headers -- << Content-Length: 196
+10:46:43.806 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+10:46:43.806 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json; charset=UTF-8
+10:46:43.806 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+10:46:43.807 [main] DEBUG org.apache.http.wire --  << "{"meta":{"success":true,"message":"Successfully Updated Admin Data"},"results":{"id":"asVTYs","name":"Anggun","username":"anggun","email":"qealta@gmail.com","phone":"081234567896","imageUrl":""}}[\n]"
+10:46:43.807 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@62e37672
+10:46:43.807 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+10:46:43.808 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I send put request with {String} to valid update admin endpoint
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send put request with &amp#27;[0m&amp#27;[32m&amp#27;[1m"registered username"&amp#27;[0m&amp#27;[32m to valid update admin endpoint&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.admin.auth.UpdateAdminSteps.sendPostValidUpdateAdminEndpoint(java.lang.String)&amp#27;[0m
+10:46:43.815 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: ResponseSteps.receiveStatusCode409 - I receive status code 409
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Date: Thu, 21 Dec 2023 03:46:36 GMT
+Content-Length: 196
+
+{
+    "meta": {
+        "success": true,
+        "message": "Successfully Updated Admin Data"
+    },
+    "results": {
+        "id": "asVTYs",
+        "name": "Anggun",
+        "username": "anggun",
+        "email": "qealta@gmail.com",
+        "phone": "081234567896",
+        "imageUrl": ""
+    }
+}
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI receive status code 409&amp#27;[0m                                                    &amp#27;[90m# starter.response.ResponseSteps.receiveStatusCode409()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <409> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at starter.response.ResponseBody.receiveStatusCode409(ResponseBody.java:49)
+	at starter.response.ResponseBody$ByteBuddy$OHj2fuEm.receiveStatusCode409$accessor$XqWocZoE(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:518)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:498)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:211)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:198)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:86)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at starter.response.ResponseBody$ByteBuddy$OHj2fuEm.receiveStatusCode409(Unknown Source)
+	at starter.response.ResponseSteps.receiveStatusCode409(ResponseSteps.java:43)
+	at âœ½.I receive status code 409(file:///D:/Anggun/API-capstone-ECAT/src/test/resources/features/admin/auth/update-admin.feature:88)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI receive error message&amp#27;[0m                                                       &amp#27;[90m# starter.response.ResponseSteps.receiveErrorMessage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="As an admin I can not update admin with post request" classname="Update Admin" time="0.026"/>
+  <testcase name="As an admin I can get complaint statistic with valid credentials" classname="Complaint Statistic" time="0.027"/>
+  <testcase name="As an admin I can not get complaint statistic with invalid endpoint" classname="Complaint Statistic" time="0.01"/>
+  <testcase name="As an admin I can not get complaint statistic without token" classname="Complaint Statistic" time="0.014"/>
+  <testcase name="As an admin I can get user statistic with valid credentials" classname="User Statistic" time="0.027"/>
+  <testcase name="As an admin I can not get user statistic with invalid endpoint" classname="User Statistic" time="0.01"/>
+  <testcase name="As an admin I can not get user statistic without token" classname="User Statistic" time="0.021"/>
+  <testcase name="As an admin I can create news with valid credentials" classname="Create News" time="0.025"/>
+  <testcase name="As an admin I cannot create news with invalid API Endpoint" classname="Create News" time="0.007"/>
+  <testcase name="As an admin i cannot create news with invalid json data" classname="Create News" time="0.009"/>
+  <testcase name="As an admin i cannot create news with invalid token" classname="Create News" time="0.008"/>
+  <testcase name="As an admin I can get all news with valid credentials" classname="Get All News #1" time="0.079"/>
+  <testcase name="As an admin I cannot get all news with invalid Api Endpoint" classname="Get All News #1" time="0.026"/>
+  <testcase name="As an admin I cannot get all news with invalid token" classname="Get All News #1" time="0.007"/>
+  <testcase name="As an admin I cannot get all news with invalid credentials" classname="Get All News #1" time="0.011"/>
+  <testcase name="As an admin I cannot search news with invalid Api Endpoint" classname="Search News #1" time="0.011"/>
+  <testcase name="As an admin I cannot search news with invalid token" classname="Search News #1" time="0.023"/>
+  <testcase name="As an admin I cannot search news with invalid credentials" classname="Search News #1" time="0.011"/>
+  <testcase name="As an admin I can update news with valid credentials" classname="Update News" time="0.009"/>
+  <testcase name="As an admin I cannot update news with invalid API Endpoint" classname="Update News" time="0.025"/>
+  <testcase name="As an admin i cannot update news with invalid request" classname="Update News" time="0.014"/>
+  <testcase name="As an admin i cannot update news with invalid json data" classname="Update News" time="0.023"/>
+  <testcase name="As an admin i cannot update news with invalid token" classname="Update News" time="0.026"/>
+  <testcase name="As an admin i cannot update news with invalid credentials" classname="Update News" time="0.032"/>
+  <testcase name="As an admin I can not get notif with invalid endpoint" classname="Notification" time="0.012"/>
+  <testcase name="As an admin I can not get notif without token" classname="Notification" time="0.027"/>
+  <testcase name="As an admin I can send otp with valid credentials" classname="OTP Admin" time="2.257"/>
+  <testcase name="As an admin I can not send otp with invalid endpoint" classname="OTP Admin" time="0.129"/>
+  <testcase name="As a user I can send otp with valid credentials" classname="OTP" time="2.69"/>
+  <testcase name="As a user I can not send otp with invalid endpoint" classname="OTP" time="0.079"/>
+  <testcase name="As a user I can reset password with valid credentials" classname="Reset Password" time="0.153"/>
+  <testcase name="As a user I cannot reset password with invalid API Endpoint" classname="Reset Password" time="0.14"/>
+  <testcase name="As a user I cannot reset password with invalid request method" classname="Reset Password" time="0.157"/>
+  <testcase name="As a user I cannot reset password with invalid token" classname="Reset Password" time="0.363"/>
+  <testcase name="As a user I cannot reset password with invalid json data" classname="Reset Password" time="0.156"/>
+  <testcase name="As a user I cannot reset password with invalid request credentials" classname="Reset Password" time="0.042"/>
+  <testcase name="As a user I can Search User By Id with valid credentials" classname="Search User By Id" time="0.345"/>
+  <testcase name="As a user I cannot Search User By Id with invalid Api Endpoint" classname="Search User By Id" time="0.128"/>
+  <testcase name="As a user I cannot Search User By Id with invalid token" classname="Search User By Id" time="0.173"/>
+  <testcase name="As a user I cannot Search User By Id with invalid credentials" classname="Search User By Id" time="0.16"/>
+  <testcase name="As a user I can Search User By Name with valid credentials" classname="Search User By Name" time="0.133"/>
+  <testcase name="As a user I cannot Search User By Name with invalid Api Endpoint" classname="Search User By Name" time="0.115"/>
+  <testcase name="As a user I cannot Search User By Name with invalid token" classname="Search User By Name" time="0.021"/>
+  <testcase name="As a user I cannot Search User By Name with invalid credentials" classname="Search User By Name" time="0.054"/>
+  <testcase name="As a user i can update photo profile with valid credentials" classname="Update Photo Profile" time="6.419"/>
+  <testcase name="As a user I cannot update photo profile invalid API Endpoint" classname="Update Photo Profile" time="27.954"/>
+  <testcase name="As a user I cannot update photo profile with invalid request method" classname="Update Photo Profile" time="11.73"/>
+  <testcase name="As a user I cannot update photo profile with invalid token" classname="Update Photo Profile" time="6.388"/>
+  <testcase name="As a user I cannot update photo profile with invalid json data" classname="Update Photo Profile" time="0.007"/>
+  <testcase name="As a user I cannot update photo profile with invalid request credentials" classname="Update Photo Profile" time="0.011"/>
+  <testcase name="As a user I can update user with valid credentials" classname="Update User" time="0.02"/>
+  <testcase name="As a user I cannot update user with invalid API Endpoint" classname="Update User" time="0.025"/>
+  <testcase name="As a user I cannot update user with invalid request method" classname="Update User" time="1.062"/>
+  <testcase name="As a user I cannot update user with invalid token" classname="Update User" time="0.126"/>
+  <testcase name="As a user I cannot update user with invalid request credentials" classname="Update User" time="0.052"/>
+  <testcase name="As a user I can get all user with valid credentials" classname="Get All User" time="0.059"/>
+  <testcase name="As a user I can not get all user with invalid endpoint" classname="Get All User" time="0.065"/>
+  <testcase name="As a user I can not get all user with post request" classname="Get All User" time="0.02"/>
+  <testcase name="As a user I can not get all user with put request" classname="Get All User" time="0.03"/>
+  <testcase name="As a user I can login with valid credentials" classname="User Login" time="0.018"/>
+  <testcase name="As a user I can not login with unregistered username" classname="User Login" time="0.115"/>
+  <testcase name="As a user I can not login with integer password" classname="User Login" time="0.088"/>
+  <testcase name="As a user I can not login with empty username" classname="User Login" time="0.984"/>
+  <testcase name="As a user I can not login with empty password" classname="User Login" time="0.036"/>
+  <testcase name="As a user I can not login with get request" classname="User Login" time="0.049"/>
+  <testcase name="As a user I can not login with put request" classname="User Login" time="0.038"/>
+  <testcase name="As a user I can register with valid credentials" classname="Register" time="0.047"/>
+  <testcase name="As a user I cannot register with invalid email" classname="Register" time="0.031"/>
+  <testcase name="As a user I cannot register with invalid endpoint" classname="Register" time="0.006"/>
+  <testcase name="As a user I cannot register with invalid name" classname="Register" time="0.006"/>
+  <testcase name="As a user I cannot register with invalid username" classname="Register" time="0.006"/>
+  <testcase name="As a user I cannot register with empty email" classname="Register" time="0.006"/>
+  <testcase name="As a user I cannot register with invalid number phone" classname="Register" time="0.008"/>
+  <testcase name="As a user I cannot register with invalid password" classname="Register" time="0.004"/>
+  <testcase name="As a user I cannot register with invalid json data" classname="Register" time="0.007"/>
+  <testcase name="As a user I cannot register with registered email" classname="Register" time="0.023"/>
+  <testcase name="As a user I cannot register with invalid credentials" classname="Register" time="0.025"/>
+  <testcase name="As a user I can get all category with valid credentials" classname="Get All Category" time="0.015"/>
+  <testcase name="As a user I can not get all category with invalid endpoint" classname="Get All Category" time="0.011"/>
+  <testcase name="As a user I can not get all category without token" classname="Get All Category" time="0.119">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;401&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <200>.
+
+]]></failure>
+    <system-out><![CDATA[
+@Category @GetAllCategory @NegativeCase
+Scenario: As a user I can not get all category without token               &amp#27;[90m# src/test/resources/features/user/category/get-all-category.feature:25&amp#27;[0m
+10:47:04.601 [main] INFO io.cucumber.core.plugin.SerenityReporter -- Running feature from file:///D:/Anggun/API-capstone-ECAT/src/test/resources/features/user/category/get-all-category.feature
+10:47:04.602 [main] INFO  -- 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+As a user I can not get all category without token(get-all-category;as-a-user-i-can-not-get-all-category-without-token)
+--------------------------------------------------------------------------------
+10:47:04.612 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: GetAllCategorySteps.setEndpointGetAllCategory - I set {String} endpoint for get all category
+10:47:04.612 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I set {String} endpoint for get all category
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid"&amp#27;[0m&amp#27;[32m endpoint for get all category&amp#27;[0m                      &amp#27;[90m# starter.stepdefinitions.user.category.GetAllCategorySteps.setEndpointGetAllCategory(java.lang.String)&amp#27;[0m
+10:47:04.619 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: GetAllCategorySteps.getAllCategoryWithoutToken - I send get request to valid get all category endpoint without token
+10:47:04.621 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: GetAllCategory.getAllCategoryWithoutToken - I set {String} endpoint for get all category
+10:47:04.621 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I set {String} endpoint for get all category
+10:47:04.628 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {}->http://34.128.69.15:8000
+10:47:04.628 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to 34.128.69.15:8000
+10:47:04.634 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+10:47:04.635 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+10:47:04.635 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+10:47:04.635 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+10:47:04.635 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+10:47:04.635 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /user/category HTTP/1.1
+10:47:04.635 [main] DEBUG org.apache.http.wire --  >> "GET /user/category HTTP/1.1[\r][\n]"
+10:47:04.635 [main] DEBUG org.apache.http.wire --  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+10:47:04.635 [main] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+10:47:04.635 [main] DEBUG org.apache.http.wire --  >> "Host: 34.128.69.15:8000[\r][\n]"
+10:47:04.635 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+10:47:04.635 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)[\r][\n]"
+10:47:04.635 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:47:04.635 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+10:47:04.635 [main] DEBUG org.apache.http.headers -- >> GET /user/category HTTP/1.1
+10:47:04.635 [main] DEBUG org.apache.http.headers -- >> Content-Type: application/json; charset=UTF-8
+10:47:04.635 [main] DEBUG org.apache.http.headers -- >> Accept: */*
+10:47:04.635 [main] DEBUG org.apache.http.headers -- >> Host: 34.128.69.15:8000
+10:47:04.635 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+10:47:04.635 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+10:47:04.635 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+10:47:04.663 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+10:47:04.663 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+10:47:04.663 [main] DEBUG org.apache.http.wire --  << "Vary: Origin[\r][\n]"
+10:47:04.663 [main] DEBUG org.apache.http.wire --  << "Date: Thu, 21 Dec 2023 03:46:57 GMT[\r][\n]"
+10:47:04.663 [main] DEBUG org.apache.http.wire --  << "Transfer-Encoding: chunked[\r][\n]"
+10:47:04.663 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+10:47:04.664 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+10:47:04.664 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+10:47:04.664 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json; charset=UTF-8
+10:47:04.664 [main] DEBUG org.apache.http.headers -- << Vary: Origin
+10:47:04.664 [main] DEBUG org.apache.http.headers -- << Date: Thu, 21 Dec 2023 03:46:57 GMT
+10:47:04.664 [main] DEBUG org.apache.http.headers -- << Transfer-Encoding: chunked
+10:47:04.664 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+10:47:04.664 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json; charset=UTF-8
+10:47:04.664 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+10:47:04.665 [main] DEBUG org.apache.http.wire --  << "8f4[\r][\n]"
+10:47:04.666 [main] DEBUG org.apache.http.wire --  << "{"meta":{"success":true,"message":"Success find all data"},"results":[{"id":"0W6gu8","CategoryName":"Fasilitas Disabilitas","faq":null},{"id":"12SyzR","CategoryName":"Transportasi publik","faq":null},{"id":"1bKOCe","CategoryName":"Infrastruktur","faq":null},{"id":"3DPTz6","CategoryName":"Kekerasan","faq":null},{"id":"3QRQv1","CategoryName":"Pendidikan","faq":null},{"id":"A3bDBp","CategoryName":"lingkungan","faq":null},{"id":"abcdef","CategoryName":"Lalu Lintas","faq":null},{"id":"AstfNS","CategoryName":"Pelayanan","faq":null},{"id":"B5Vs3M","CategoryName":"Telekomunikasi","faq":null},{"id":"DA7CZu","CategoryName":"Sampah","faq":null},{"id":"ekuz5Z","CategoryName":"Kebudayaan","faq":null},{"id":"gcKUBm","CategoryName":"Pelecehan","faq":null},{"id":"ghijkl","CategoryName":"Fasilitas Umum","faq":null},{"id":"I2fnXf","CategoryName":"Pungli","faq":null},{"id":"IMxDIZ","CategoryName":"Jalan","faq":null},{"id":"IxOww7","CategoryName":"tes12","faq":null},{"id":"jQBmPE","CategoryName":"Keamanan","faq":null},{"id":"K7BpH3","CategoryName":"Perubahan 5","faq":null},{"id":"Kf2YaR","CategoryName":"Ekonomi","faq":null},{"id":"lMJm4r","CategoryName":"Bullying","faq":null},{"id":"msSH2t","CategoryName":"Delta","faq":null},{"id":"nLELY4","CategoryName":"Keamanan","faq":null},{"id":"OT5qUO","CategoryName":"Pengubahan1","faq":[{"id":"7V9lXT","title":"Nam ullamcorper magna dolor?","content":"urna in sapien vestibulum, condimentum pellentesque arcu mattis. Sed eget convallis massa. Proin dignissim molestie gravida. Fusce laoreet metus at aliquam euismod. Suspendisse auctor at justo in viverra."},{"id":"vgqQ0B","title":"Lorem ipsum dolor sit amet?","content":"consectetur adipiscing elit. Quisque non ligula sed justo pellentesque viverra ut quis ligula. Donec fringilla nulla quis iaculis hendrerit. Pellentesque volutpat felis purus, a aliquam nisi euismod in."}]},{"id":"S1W76d","CategoryName":"cat1","faq":null},{"id":"ucljVZ","CategoryName":"okeyy","faq":null},{"id":"WljJbb","CategoryName":"Lingkungan","faq":null},{"id":"wVLkb3","CategoryName":"Contoh1","faq":null},{"id":"XHG6PU","CategoryName":"halo","faq":null},{"id":"XWP222","CategoryName":"Kategori 2","faq":null},{"id":"ySJruI","CategoryName":"Umum","faq":null},{"id":"ZiC4lI","CategoryName":"Fasilitas Umum","faq":null}]}[\n]"
+10:47:04.666 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+10:47:04.666 [main] DEBUG org.apache.http.wire --  << "0[\r][\n]"
+10:47:04.666 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+10:47:04.666 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@458b22fa
+10:47:04.666 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+10:47:04.667 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I send get request to valid get all category endpoint without token
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send get request to valid get all category endpoint without token&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.user.category.GetAllCategorySteps.getAllCategoryWithoutToken()&amp#27;[0m
+10:47:04.679 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: ResponseSteps.receiveStatusCode401 - I receive status code 401
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Date: Thu, 21 Dec 2023 03:46:57 GMT
+Transfer-Encoding: chunked
+
+{
+    "meta": {
+        "success": true,
+        "message": "Success find all data"
+    },
+    "results": [
+        {
+            "id": "0W6gu8",
+            "CategoryName": "Fasilitas Disabilitas",
+            "faq": null
+        },
+        {
+            "id": "12SyzR",
+            "CategoryName": "Transportasi publik",
+            "faq": null
+        },
+        {
+            "id": "1bKOCe",
+            "CategoryName": "Infrastruktur",
+            "faq": null
+        },
+        {
+            "id": "3DPTz6",
+            "CategoryName": "Kekerasan",
+            "faq": null
+        },
+        {
+            "id": "3QRQv1",
+            "CategoryName": "Pendidikan",
+            "faq": null
+        },
+        {
+            "id": "A3bDBp",
+            "CategoryName": "lingkungan",
+            "faq": null
+        },
+        {
+            "id": "abcdef",
+            "CategoryName": "Lalu Lintas",
+            "faq": null
+        },
+        {
+            "id": "AstfNS",
+            "CategoryName": "Pelayanan",
+            "faq": null
+        },
+        {
+            "id": "B5Vs3M",
+            "CategoryName": "Telekomunikasi",
+            "faq": null
+        },
+        {
+            "id": "DA7CZu",
+            "CategoryName": "Sampah",
+            "faq": null
+        },
+        {
+            "id": "ekuz5Z",
+            "CategoryName": "Kebudayaan",
+            "faq": null
+        },
+        {
+            "id": "gcKUBm",
+            "CategoryName": "Pelecehan",
+            "faq": null
+        },
+        {
+            "id": "ghijkl",
+            "CategoryName": "Fasilitas Umum",
+            "faq": null
+        },
+        {
+            "id": "I2fnXf",
+            "CategoryName": "Pungli",
+            "faq": null
+        },
+        {
+            "id": "IMxDIZ",
+            "CategoryName": "Jalan",
+            "faq": null
+        },
+        {
+            "id": "IxOww7",
+            "CategoryName": "tes12",
+            "faq": null
+        },
+        {
+            "id": "jQBmPE",
+            "CategoryName": "Keamanan",
+            "faq": null
+        },
+        {
+            "id": "K7BpH3",
+            "CategoryName": "Perubahan 5",
+            "faq": null
+        },
+        {
+            "id": "Kf2YaR",
+            "CategoryName": "Ekonomi",
+            "faq": null
+        },
+        {
+            "id": "lMJm4r",
+            "CategoryName": "Bullying",
+            "faq": null
+        },
+        {
+            "id": "msSH2t",
+            "CategoryName": "Delta",
+            "faq": null
+        },
+        {
+            "id": "nLELY4",
+            "CategoryName": "Keamanan",
+            "faq": null
+        },
+        {
+            "id": "OT5qUO",
+            "CategoryName": "Pengubahan1",
+            "faq": [
+                {
+                    "id": "7V9lXT",
+                    "title": "Nam ullamcorper magna dolor?",
+                    "content": "urna in sapien vestibulum, condimentum pellentesque arcu mattis. Sed eget convallis massa. Proin dignissim molestie gravida. Fusce laoreet metus at aliquam euismod. Suspendisse auctor at justo in viverra."
+                },
+                {
+                    "id": "vgqQ0B",
+                    "title": "Lorem ipsum dolor sit amet?",
+                    "content": "consectetur adipiscing elit. Quisque non ligula sed justo pellentesque viverra ut quis ligula. Donec fringilla nulla quis iaculis hendrerit. Pellentesque volutpat felis purus, a aliquam nisi euismod in."
+                }
+            ]
+        },
+        {
+            "id": "S1W76d",
+            "CategoryName": "cat1",
+            "faq": null
+        },
+        {
+            "id": "ucljVZ",
+            "CategoryName": "okeyy",
+            "faq": null
+        },
+        {
+            "id": "WljJbb",
+            "CategoryName": "Lingkungan",
+            "faq": null
+        },
+        {
+            "id": "wVLkb3",
+            "CategoryName": "Contoh1",
+            "faq": null
+        },
+        {
+            "id": "XHG6PU",
+            "CategoryName": "halo",
+            "faq": null
+        },
+        {
+            "id": "XWP222",
+            "CategoryName": "Kategori 2",
+            "faq": null
+        },
+        {
+            "id": "ySJruI",
+            "CategoryName": "Umum",
+            "faq": null
+        },
+        {
+            "id": "ZiC4lI",
+            "CategoryName": "Fasilitas Umum",
+            "faq": null
+        }
+    ]
+}
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI receive status code 401&amp#27;[0m                                           &amp#27;[90m# starter.response.ResponseSteps.receiveStatusCode401()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <401> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at starter.response.ResponseBody.receiveStatusCode401(ResponseBody.java:37)
+	at starter.response.ResponseBody$ByteBuddy$OHj2fuEm.receiveStatusCode401$accessor$XqWocZoE(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor205.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:518)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:498)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:211)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:198)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:86)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at starter.response.ResponseBody$ByteBuddy$OHj2fuEm.receiveStatusCode401(Unknown Source)
+	at starter.response.ResponseSteps.receiveStatusCode401(ResponseSteps.java:33)
+	at âœ½.I receive status code 401(file:///D:/Anggun/API-capstone-ECAT/src/test/resources/features/user/category/get-all-category.feature:28)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI receive auth error message&amp#27;[0m                                         &amp#27;[90m# starter.response.ResponseSteps.receiveAuthErrorMessage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="As a user I can get category by id with valid credentials" classname="Get Category By Id" time="0.077"/>
+  <testcase name="As a user I can not get category by id with invalid endpoint" classname="Get Category By Id" time="0.013"/>
+  <testcase name="As a user I can not get category by id without token" classname="Get Category By Id" time="0.032">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;401&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <200>.
+
+]]></failure>
+    <system-out><![CDATA[
+@Category @GetCategoryById @NegativeCase
+Scenario: As a user I can not get category by id without token               &amp#27;[90m# src/test/resources/features/user/category/get-category-by-id.feature:25&amp#27;[0m
+10:47:05.009 [main] INFO io.cucumber.core.plugin.SerenityReporter -- Running feature from file:///D:/Anggun/API-capstone-ECAT/src/test/resources/features/user/category/get-category-by-id.feature
+10:47:05.010 [main] INFO  -- 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+As a user I can not get category by id without token(get-category-by-id;as-a-user-i-can-not-get-category-by-id-without-token)
+--------------------------------------------------------------------------------
+10:47:05.025 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: GetCategoryByIdSteps.setEndpointGetCategoryById - I set {String} endpoint for get category by id
+10:47:05.025 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I set {String} endpoint for get category by id
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid"&amp#27;[0m&amp#27;[32m endpoint for get category by id&amp#27;[0m                      &amp#27;[90m# starter.stepdefinitions.user.category.GetCategoryByIdSteps.setEndpointGetCategoryById(java.lang.String)&amp#27;[0m
+10:47:05.029 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: GetCategoryByIdSteps.getCategoryByIdWithoutToken - I send get request to valid get category by idendpoint without token
+10:47:05.031 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: GetCategoryById.getCategoryByIdWithoutToken - I set {String} endpoint for get category by id
+10:47:05.031 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I set {String} endpoint for get category by id
+10:47:05.036 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {}->http://34.128.69.15:8000
+10:47:05.036 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to 34.128.69.15:8000
+10:47:05.042 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+10:47:05.042 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+10:47:05.042 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+10:47:05.042 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+10:47:05.042 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+10:47:05.043 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /user/category/lMJm4r HTTP/1.1
+10:47:05.043 [main] DEBUG org.apache.http.wire --  >> "GET /user/category/lMJm4r HTTP/1.1[\r][\n]"
+10:47:05.043 [main] DEBUG org.apache.http.wire --  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+10:47:05.043 [main] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+10:47:05.043 [main] DEBUG org.apache.http.wire --  >> "Host: 34.128.69.15:8000[\r][\n]"
+10:47:05.043 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+10:47:05.043 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)[\r][\n]"
+10:47:05.043 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:47:05.043 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+10:47:05.043 [main] DEBUG org.apache.http.headers -- >> GET /user/category/lMJm4r HTTP/1.1
+10:47:05.043 [main] DEBUG org.apache.http.headers -- >> Content-Type: application/json; charset=UTF-8
+10:47:05.043 [main] DEBUG org.apache.http.headers -- >> Accept: */*
+10:47:05.043 [main] DEBUG org.apache.http.headers -- >> Host: 34.128.69.15:8000
+10:47:05.043 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+10:47:05.043 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+10:47:05.043 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+10:47:05.063 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+10:47:05.063 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+10:47:05.063 [main] DEBUG org.apache.http.wire --  << "Vary: Origin[\r][\n]"
+10:47:05.063 [main] DEBUG org.apache.http.wire --  << "Date: Thu, 21 Dec 2023 03:46:58 GMT[\r][\n]"
+10:47:05.063 [main] DEBUG org.apache.http.wire --  << "Content-Length: 119[\r][\n]"
+10:47:05.063 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+10:47:05.063 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+10:47:05.063 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+10:47:05.063 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json; charset=UTF-8
+10:47:05.063 [main] DEBUG org.apache.http.headers -- << Vary: Origin
+10:47:05.063 [main] DEBUG org.apache.http.headers -- << Date: Thu, 21 Dec 2023 03:46:58 GMT
+10:47:05.063 [main] DEBUG org.apache.http.headers -- << Content-Length: 119
+10:47:05.063 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+10:47:05.063 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json; charset=UTF-8
+10:47:05.063 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+10:47:05.064 [main] DEBUG org.apache.http.wire --  << "{"meta":{"success":true,"message":"Success find data"},"results":{"id":"lMJm4r","CategoryName":"Bullying","faq":null}}[\n]"
+10:47:05.064 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3143b057
+10:47:05.064 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+10:47:05.064 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I send get request to valid get category by idendpoint without token
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send get request to valid get category by id endpoint without token&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.user.category.GetCategoryByIdSteps.getCategoryByIdWithoutToken()&amp#27;[0m
+10:47:05.069 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: ResponseSteps.receiveStatusCode401 - I receive status code 401
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Date: Thu, 21 Dec 2023 03:46:58 GMT
+Content-Length: 119
+
+{
+    "meta": {
+        "success": true,
+        "message": "Success find data"
+    },
+    "results": {
+        "id": "lMJm4r",
+        "CategoryName": "Bullying",
+        "faq": null
+    }
+}
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI receive status code 401&amp#27;[0m                                             &amp#27;[90m# starter.response.ResponseSteps.receiveStatusCode401()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <401> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at starter.response.ResponseBody.receiveStatusCode401(ResponseBody.java:37)
+	at starter.response.ResponseBody$ByteBuddy$OHj2fuEm.receiveStatusCode401$accessor$XqWocZoE(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor205.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:518)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:498)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:211)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:198)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:86)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at starter.response.ResponseBody$ByteBuddy$OHj2fuEm.receiveStatusCode401(Unknown Source)
+	at starter.response.ResponseSteps.receiveStatusCode401(ResponseSteps.java:33)
+	at âœ½.I receive status code 401(file:///D:/Anggun/API-capstone-ECAT/src/test/resources/features/user/category/get-category-by-id.feature:28)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI receive auth error message&amp#27;[0m                                           &amp#27;[90m# starter.response.ResponseSteps.receiveAuthErrorMessage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="As a user I can create room chat with valid credentials" classname="Create Room" time="0.049">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <200>.
+
+]]></failure>
+    <system-out><![CDATA[10:47:05.085 [main] ERROR  -- 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+As a user I can not get category by id without token
+-----------------------------------------------------------------------
+10:47:05.085 [main] DEBUG  -- RELATED ISSUES: 
+10:47:05.085 [main] ERROR  --     Test failed at step: I receive status code 401
+10:47:05.085 [main] ERROR  --     1 expectation failed.Expected status code <401> but was <200>.
+10:47:05.088 [main] INFO io.cucumber.core.plugin.SerenityReporter -- Running feature from file:///D:/Anggun/API-capstone-ECAT/src/test/resources/features/user/chat/create-room.feature
+10:47:05.090 [main] DEBUG net.thucydides.core.steps.StepEventBus -- Test suite started for story net.thucydides.core.model.Story@4382f515
+10:47:05.090 [main] INFO  -- Test Suite Started: Create Room
+
+@Chat @CreateRoom @PositiveCase
+Scenario: As a user I can create room chat with valid credentials &amp#27;[90m# src/test/resources/features/user/chat/create-room.feature:10&amp#27;[0m
+10:47:05.097 [main] INFO io.cucumber.core.plugin.SerenityReporter -- Running feature from file:///D:/Anggun/API-capstone-ECAT/src/test/resources/features/user/chat/create-room.feature
+10:47:05.100 [main] INFO  -- 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+As a user I can create room chat with valid credentials(create-room;as-a-user-i-can-create-room-chat-with-valid-credentials)
+--------------------------------------------------------------------------------
+10:47:05.126 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: CreateRoomChatSteps.setEndpointCreateRoomChat - I set {String} endpoint for create room chat
+10:47:05.126 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I set {String} endpoint for create room chat
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m endpoint for create room chat&amp#27;[0m               &amp#27;[90m# starter.stepdefinitions.user.chat.CreateRoomChatSteps.setEndpointCreateRoomChat(java.lang.String)&amp#27;[0m
+10:47:05.131 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: CreateRoomChatSteps.sendPostBaseTypeCreateRoomChatEndpoint - I send post request to {String} create room chat endpoint
+10:47:05.135 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: CreateRoomChat.sendPostBaseTypeCreateRoomChatEndpoint - I set {String} endpoint for create room chat
+10:47:05.136 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I set {String} endpoint for create room chat
+10:47:05.145 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {}->http://34.128.69.15:8000
+10:47:05.146 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to 34.128.69.15:8000
+10:47:05.151 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+10:47:05.151 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+10:47:05.151 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+10:47:05.151 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+10:47:05.151 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: POST /chat/user/ws/create-room HTTP/1.1
+10:47:05.151 [main] DEBUG org.apache.http.wire --  >> "POST /chat/user/ws/create-room HTTP/1.1[\r][\n]"
+10:47:05.152 [main] DEBUG org.apache.http.wire --  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+10:47:05.152 [main] DEBUG org.apache.http.wire --  >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6ImluaWFyYUBnbWFpbC5jb20iLCJleHAiOjE3MDMxMzM4NDYsImlkIjoiVlEwZlhUIiwibmFtZSI6ImFyYSIsInJvbGUiOiJ1c2VyIn0.F1IIob9rph4nMnBVMDxWgBl4s1Ad1lKKZ-W4eeBvt6g[\r][\n]"
+10:47:05.152 [main] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+10:47:05.152 [main] DEBUG org.apache.http.wire --  >> "Content-Length: 0[\r][\n]"
+10:47:05.152 [main] DEBUG org.apache.http.wire --  >> "Host: 34.128.69.15:8000[\r][\n]"
+10:47:05.152 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+10:47:05.152 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)[\r][\n]"
+10:47:05.152 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:47:05.152 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+10:47:05.152 [main] DEBUG org.apache.http.headers -- >> POST /chat/user/ws/create-room HTTP/1.1
+10:47:05.152 [main] DEBUG org.apache.http.headers -- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+10:47:05.152 [main] DEBUG org.apache.http.headers -- >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6ImluaWFyYUBnbWFpbC5jb20iLCJleHAiOjE3MDMxMzM4NDYsImlkIjoiVlEwZlhUIiwibmFtZSI6ImFyYSIsInJvbGUiOiJ1c2VyIn0.F1IIob9rph4nMnBVMDxWgBl4s1Ad1lKKZ-W4eeBvt6g
+10:47:05.152 [main] DEBUG org.apache.http.headers -- >> Accept: */*
+10:47:05.152 [main] DEBUG org.apache.http.headers -- >> Content-Length: 0
+10:47:05.152 [main] DEBUG org.apache.http.headers -- >> Host: 34.128.69.15:8000
+10:47:05.152 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+10:47:05.152 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+10:47:05.152 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+10:47:05.173 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+10:47:05.173 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+10:47:05.173 [main] DEBUG org.apache.http.wire --  << "Vary: Origin[\r][\n]"
+10:47:05.173 [main] DEBUG org.apache.http.wire --  << "Date: Thu, 21 Dec 2023 03:46:58 GMT[\r][\n]"
+10:47:05.173 [main] DEBUG org.apache.http.wire --  << "Content-Length: 63[\r][\n]"
+10:47:05.173 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+10:47:05.173 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+10:47:05.173 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+10:47:05.173 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json; charset=UTF-8
+10:47:05.173 [main] DEBUG org.apache.http.headers -- << Vary: Origin
+10:47:05.173 [main] DEBUG org.apache.http.headers -- << Date: Thu, 21 Dec 2023 03:46:58 GMT
+10:47:05.173 [main] DEBUG org.apache.http.headers -- << Content-Length: 63
+10:47:05.173 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+10:47:05.173 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json; charset=UTF-8
+10:47:05.173 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+10:47:05.174 [main] DEBUG org.apache.http.wire --  << "{"meta":{"success":true,"message":"Successfully Create Room"}}[\n]"
+10:47:05.174 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1dd9f295
+10:47:05.174 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+10:47:05.174 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I send post request to {String} create room chat endpoint
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send post request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m create room chat endpoint&amp#27;[0m   &amp#27;[90m# starter.stepdefinitions.user.chat.CreateRoomChatSteps.sendPostBaseTypeCreateRoomChatEndpoint(java.lang.String)&amp#27;[0m
+10:47:05.182 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: ResponseSteps.receiveStatusCode201 - I receive status code 201
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Date: Thu, 21 Dec 2023 03:46:58 GMT
+Content-Length: 63
+
+{
+    "meta": {
+        "success": true,
+        "message": "Successfully Create Room"
+    }
+}
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI receive status code 201&amp#27;[0m                                  &amp#27;[90m# starter.response.ResponseSteps.receiveStatusCode201()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at starter.response.ResponseBody.receiveStatusCode201(ResponseBody.java:18)
+	at starter.response.ResponseBody$ByteBuddy$OHj2fuEm.receiveStatusCode201$accessor$XqWocZoE(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:518)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:498)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:211)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:198)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:86)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at starter.response.ResponseBody$ByteBuddy$OHj2fuEm.receiveStatusCode201(Unknown Source)
+	at starter.response.ResponseSteps.receiveStatusCode201(ResponseSteps.java:18)
+	at âœ½.I receive status code 201(file:///D:/Anggun/API-capstone-ECAT/src/test/resources/features/user/chat/create-room.feature:13)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI receive message that room chat is created&amp#27;[0m                 &amp#27;[90m# starter.stepdefinitions.user.chat.CreateRoomChatSteps.receiveDetailRoomChat()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="As a user I can not create room chat with invalid endpoint" classname="Create Room" time="0.03"/>
+  <testcase name="As a user I can not create room chat without token" classname="Create Room" time="0.01"/>
+  <testcase name="As a user I can get chat by room id with valid credentials" classname="Get Chat By Room Id" time="0.029"/>
+  <testcase name="As a user I can not get chat by room id with invalid endpoint" classname="Get Chat By Room Id" time="0.015"/>
+  <testcase name="As a user I can not get chat by room id without token" classname="Get Chat By Room Id" time="0.026"/>
+  <testcase name="As a user I can create complaint with valid credentials" classname="Create Complaint" time="1.396"/>
+  <testcase name="As a user I can not create complaint with invalid endpoint" classname="Create Complaint" time="2.707"/>
+  <testcase name="As a user I can not create complaint with invalid ID" classname="Create Complaint" time="3.66"/>
+  <testcase name="As a user I can not create complaint without title" classname="Create Complaint" time="1.361"/>
+  <testcase name="As a user I can not create complaint without content" classname="Create Complaint" time="1.112"/>
+  <testcase name="As a user I can not create complaint without attachment" classname="Create Complaint" time="0.057"/>
+  <testcase name="As a user I can not create complaint without login" classname="Create Complaint" time="1.23"/>
+  <testcase name="As a user I can get all complaint with valid credentials" classname="Get All Complaint" time="0.035"/>
+  <testcase name="As a user I can not get all complaint with invalid endpoint" classname="Get All Complaint" time="0.022"/>
+  <testcase name="As a user I can get complaint by id with valid credentials" classname="Get Complaint By Id" time="0.057"/>
+  <testcase name="As a user I can not get complaint by id with invalid endpoint" classname="Get Complaint By Id" time="0.026"/>
+  <testcase name="As a user I can get solved complaint with valid credentials" classname="Get Complaint By Status" time="0.008"/>
+  <testcase name="As a user I can get unsolved complaint with valid credentials" classname="Get Complaint By Status" time="0.009"/>
+  <testcase name="As a user I can not get complaint by status with invalid endpoint" classname="Get Complaint By Status" time="0.009"/>
+  <testcase name="As a user I can get all faq with valid credentials" classname="FAQ" time="0.026"/>
+  <testcase name="As a user I can not get all faq with invalid endpoint" classname="FAQ" time="0.028"/>
+  <testcase name="As a user I can not get all faq without token" classname="FAQ" time="0.029">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;401&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <200>.
+
+]]></failure>
+    <system-out><![CDATA[
+@FAQ @NegativeCase
+Scenario: As a user I can not get all faq without token               &amp#27;[90m# src/test/resources/features/user/faq/get-all-faq.feature:23&amp#27;[0m
+10:47:15.415 [main] INFO io.cucumber.core.plugin.SerenityReporter -- Running feature from file:///D:/Anggun/API-capstone-ECAT/src/test/resources/features/user/faq/get-all-faq.feature
+10:47:15.417 [main] INFO  -- 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+As a user I can not get all faq without token(faq;as-a-user-i-can-not-get-all-faq-without-token)
+--------------------------------------------------------------------------------
+10:47:15.439 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: GetAllFaqSteps.setEndpointGetAllFaq - I set {String} endpoint for get all faq
+10:47:15.440 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I set {String} endpoint for get all faq
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m endpoint for get all faq&amp#27;[0m                        &amp#27;[90m# starter.stepdefinitions.user.faq.GetAllFaqSteps.setEndpointGetAllFaq(java.lang.String)&amp#27;[0m
+10:47:15.443 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: GetAllFaqSteps.sendGetAllFaqWithoutToken - I send get request to valid get all faq endpoint without token
+10:47:15.444 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: GetAllFaq.sendGetAllFaqWithoutToken - I set {String} endpoint for get all faq
+10:47:15.445 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I set {String} endpoint for get all faq
+10:47:15.455 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {}->http://34.128.69.15:8000
+10:47:15.456 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to 34.128.69.15:8000
+10:47:15.461 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+10:47:15.462 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+10:47:15.462 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+10:47:15.462 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+10:47:15.462 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+10:47:15.462 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /user/faq HTTP/1.1
+10:47:15.462 [main] DEBUG org.apache.http.wire --  >> "GET /user/faq HTTP/1.1[\r][\n]"
+10:47:15.462 [main] DEBUG org.apache.http.wire --  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+10:47:15.462 [main] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+10:47:15.462 [main] DEBUG org.apache.http.wire --  >> "Host: 34.128.69.15:8000[\r][\n]"
+10:47:15.462 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+10:47:15.462 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)[\r][\n]"
+10:47:15.462 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:47:15.462 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+10:47:15.462 [main] DEBUG org.apache.http.headers -- >> GET /user/faq HTTP/1.1
+10:47:15.462 [main] DEBUG org.apache.http.headers -- >> Content-Type: application/json; charset=UTF-8
+10:47:15.462 [main] DEBUG org.apache.http.headers -- >> Accept: */*
+10:47:15.462 [main] DEBUG org.apache.http.headers -- >> Host: 34.128.69.15:8000
+10:47:15.462 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+10:47:15.462 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+10:47:15.462 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+10:47:15.483 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+10:47:15.483 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+10:47:15.483 [main] DEBUG org.apache.http.wire --  << "Vary: Origin[\r][\n]"
+10:47:15.483 [main] DEBUG org.apache.http.wire --  << "Date: Thu, 21 Dec 2023 03:47:08 GMT[\r][\n]"
+10:47:15.483 [main] DEBUG org.apache.http.wire --  << "Content-Length: 659[\r][\n]"
+10:47:15.483 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+10:47:15.483 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+10:47:15.483 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+10:47:15.483 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json; charset=UTF-8
+10:47:15.483 [main] DEBUG org.apache.http.headers -- << Vary: Origin
+10:47:15.483 [main] DEBUG org.apache.http.headers -- << Date: Thu, 21 Dec 2023 03:47:08 GMT
+10:47:15.483 [main] DEBUG org.apache.http.headers -- << Content-Length: 659
+10:47:15.483 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+10:47:15.483 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json; charset=UTF-8
+10:47:15.483 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+10:47:15.486 [main] DEBUG org.apache.http.wire --  << "{"meta":{"success":true,"message":"Success find all data"},"results":[{"id":"7V9lXT","title":"Nam ullamcorper magna dolor?","content":"urna in sapien vestibulum, condimentum pellentesque arcu mattis. Sed eget convallis massa. Proin dignissim molestie gravida. Fusce laoreet metus at aliquam euismod. Suspendisse auctor at justo in viverra.","category_id":"OT5qUO"},{"id":"vgqQ0B","title":"Lorem ipsum dolor sit amet?","content":"consectetur adipiscing elit. Quisque non ligula sed justo pellentesque viverra ut quis ligula. Donec fringilla nulla quis iaculis hendrerit. Pellentesque volutpat felis purus, a aliquam nisi euismod in.","category_id":"OT5qUO"}]}[\n]"
+10:47:15.486 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@39a7345b
+10:47:15.486 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+10:47:15.487 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: I send get request to valid get all faq endpoint without token
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send get request to valid get all faq endpoint without token&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.user.faq.GetAllFaqSteps.sendGetAllFaqWithoutToken()&amp#27;[0m
+10:47:15.497 [main] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: ResponseSteps.receiveStatusCode401 - I receive status code 401
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Date: Thu, 21 Dec 2023 03:47:08 GMT
+Content-Length: 659
+
+{
+    "meta": {
+        "success": true,
+        "message": "Success find all data"
+    },
+    "results": [
+        {
+            "id": "7V9lXT",
+            "title": "Nam ullamcorper magna dolor?",
+            "content": "urna in sapien vestibulum, condimentum pellentesque arcu mattis. Sed eget convallis massa. Proin dignissim molestie gravida. Fusce laoreet metus at aliquam euismod. Suspendisse auctor at justo in viverra.",
+            "category_id": "OT5qUO"
+        },
+        {
+            "id": "vgqQ0B",
+            "title": "Lorem ipsum dolor sit amet?",
+            "content": "consectetur adipiscing elit. Quisque non ligula sed justo pellentesque viverra ut quis ligula. Donec fringilla nulla quis iaculis hendrerit. Pellentesque volutpat felis purus, a aliquam nisi euismod in.",
+            "category_id": "OT5qUO"
+        }
+    ]
+}
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI receive status code 401&amp#27;[0m                                      &amp#27;[90m# starter.response.ResponseSteps.receiveStatusCode401()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <401> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at starter.response.ResponseBody.receiveStatusCode401(ResponseBody.java:37)
+	at starter.response.ResponseBody$ByteBuddy$OHj2fuEm.receiveStatusCode401$accessor$XqWocZoE(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor205.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:518)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:498)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:211)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:198)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:86)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at starter.response.ResponseBody$ByteBuddy$OHj2fuEm.receiveStatusCode401(Unknown Source)
+	at starter.response.ResponseSteps.receiveStatusCode401(ResponseSteps.java:33)
+	at âœ½.I receive status code 401(file:///D:/Anggun/API-capstone-ECAT/src/test/resources/features/user/faq/get-all-faq.feature:26)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI receive auth error message&amp#27;[0m                                    &amp#27;[90m# starter.response.ResponseSteps.receiveAuthErrorMessage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="As a user I can get all news with valid credentials" classname="Get All News #2" time="0.109"/>
+  <testcase name="As a user I cannot get all news with invalid Api Endpoint" classname="Get All News #2" time="0.03"/>
+  <testcase name="As a user I cannot get all news with invalid token" classname="Get All News #2" time="0.007"/>
+  <testcase name="As a user I cannot get all news with invalid credentials" classname="Get All News #2" time="0.006"/>
+  <testcase name="As a user I cannot search news with invalid Api Endpoint" classname="Search News #2" time="0.025"/>
+  <testcase name="As a user I cannot search news with invalid token" classname="Search News #2" time="0.024"/>
+  <testcase name="As a user I cannot search news with invalid credentials" classname="Search News #2" time="0.012"/>
+</testsuite>

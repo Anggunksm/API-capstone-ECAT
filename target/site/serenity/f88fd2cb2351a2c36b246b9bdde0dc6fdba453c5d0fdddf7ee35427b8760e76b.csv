@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Get Complaint By Status","As a user I can get solved complaint with valid credentials","SUCCESS","2023-12-20T23:19:14.9673729+07:00[Asia/Jakarta]","0.0","0.1"
-"Get Complaint By Status","As a user I can get unsolved complaint with valid credentials","SUCCESS","2023-12-20T23:19:15.077908+07:00[Asia/Jakarta]","0.0","0.1"
-"Get Complaint By Status","As a user I can not get complaint by status with invalid endpoint","SUCCESS","2023-12-20T23:19:15.1884585+07:00[Asia/Jakarta]","0.0","0.08"
+"Get Complaint By Status","As a user I can get solved complaint with valid credentials","SUCCESS","2023-12-21T10:47:14.611398+07:00[Asia/Jakarta]","0.0","0.19"
+"Get Complaint By Status","As a user I can get unsolved complaint with valid credentials","SUCCESS","2023-12-21T10:47:14.813237+07:00[Asia/Jakarta]","0.0","0.09"
+"Get Complaint By Status","As a user I can not get complaint by status with invalid endpoint","SUCCESS","2023-12-21T10:47:14.9182803+07:00[Asia/Jakarta]","0.0","0.07"

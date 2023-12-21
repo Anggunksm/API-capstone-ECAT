@@ -1,2 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Admin Login","As an admin I can login with valid credentials","SUCCESS","2023-12-20T23:18:33.7519499+07:00[Asia/Jakarta]","0.0","8.41"
+"Get All Admin","As an admin I can get all admin with valid credentials","SUCCESS","2023-12-21T10:46:19.893994+07:00[Asia/Jakarta]","0.0","7.99"
+"Admin Login","As an admin I can login with valid credentials","SUCCESS","2023-12-21T10:46:28.6003217+07:00[Asia/Jakarta]","0.0","1.85"
+"Register Admin","As an admin I can register with valid credentials","SUCCESS","2023-12-21T10:46:32.9149431+07:00[Asia/Jakarta]","0.0","2.84"

@@ -1,7 +1,7 @@
 @Category
 
 @GetCategoryById
-Feature: Get Complaint By Id
+Feature: Get Category By Id
   As a user
   I want to get category by id
   So that I receive list of category by Id
