@@ -11,7 +11,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class UserGetAllNews {
 
-    private static String url = "http://34.128.69.15:8000/users/news";
+    private static String url = "http://34.128.69.15:8000/user/news";
 
     private static String url1 = "http://34.128.69.15:8000/invalid";
 
@@ -39,7 +39,7 @@ public class UserGetAllNews {
     @Step("User can get all news")
     public void receiveValidData() {
         JsonSchemaHelper helper = new JsonSchemaHelper();
-        String schema = helper.getResponseSchema(JsonSchema.GET_ALL_NEWS_SCHEMA);
+        String schema = helper.getResponseSchema(JsonSchema.USER_GET_ALL_NEWS_SCHEMA);
 
         restAssuredThat(response -> response.body(matchesJsonSchema(schema)));}
 

@@ -1,5 +1,5 @@
 @User
-Feature: Get All News
+Feature: User Get All News
   As a user
   I want to get all news
   So that I can get all news
@@ -20,7 +20,7 @@ Feature: Get All News
     Given I set valid Api Endpoint for user get all news
     When I send invalid request and valid token user for get all news
     Then I receive status code 404
-    And I receive auth error message
+    And I receive error message
 
   Scenario: As a user I cannot get all news with invalid token
     Given I set valid Api Endpoint for user get all news

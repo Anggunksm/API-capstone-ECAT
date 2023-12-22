@@ -11,7 +11,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class UserSearchNews {
 
-    private static String url = "http://34.128.69.15:8000/users/news/search?id=p4Ms7Y";
+    private static String url = "http://34.128.69.15:8000/user/news/search?id=z8Yui2";
 
     private static String url1 = "http://34.128.69.15:8000/invalid";
 

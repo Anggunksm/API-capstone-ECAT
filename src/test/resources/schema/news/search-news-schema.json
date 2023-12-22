@@ -41,7 +41,7 @@
       "additionalProperties": false,
       "properties": {
         "id": {
-          "type": "string"
+          "$ref": "#/definitions/ID"
         },
         "adminId": {
           "type": "string"
@@ -69,10 +69,16 @@
           "type": "string"
         },
         "feedback": {
-          "type": "null"
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Feedback"
+          }
         },
         "likes": {
-          "type": "null"
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Like"
+          }
         }
       },
       "required": [
@@ -89,6 +95,88 @@
         "title"
       ],
       "title": "Results"
+    },
+    "Feedback": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "fullname": {
+          "$ref": "#/definitions/Fullname"
+        },
+        "role": {
+          "$ref": "#/definitions/Role"
+        },
+        "photoImage": {
+          "type": "string"
+        },
+        "newsId": {
+          "$ref": "#/definitions/ID"
+        },
+        "content": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "content",
+        "fullname",
+        "id",
+        "newsId",
+        "photoImage",
+        "role"
+      ],
+      "title": "Feedback"
+    },
+    "Like": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "userId": {
+          "type": "string"
+        },
+        "newsId": {
+          "$ref": "#/definitions/ID"
+        },
+        "status": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "newsId",
+        "status",
+        "userId"
+      ],
+      "title": "Like"
+    },
+    "Fullname": {
+      "type": "string",
+      "enum": [
+        "Naufal",
+        "user12",
+        "DY",
+        "anisa"
+      ],
+      "title": "Fullname"
+    },
+    "ID": {
+      "type": "string",
+      "enum": [
+        "z8Yui2"
+      ],
+      "title": "ID"
+    },
+    "Role": {
+      "type": "string",
+      "enum": [
+        "user"
+      ],
+      "title": "Role"
     }
   }
 }

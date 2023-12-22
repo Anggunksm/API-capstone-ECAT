@@ -38,7 +38,7 @@ public class GetAllNews {
     @Step("I can get all news")
     public void receiveValidData() {
         JsonSchemaHelper helper = new JsonSchemaHelper();
-        String schema = helper.getResponseSchema(JsonSchema.GET_ALL_NEWS_SCHEMA);
+        String schema = helper.getResponseSchema(JsonSchema.ADMIN_GET_ALL_NEWS_SCHEMA);
 
         restAssuredThat(response -> response.body(matchesJsonSchema(schema)));}
 

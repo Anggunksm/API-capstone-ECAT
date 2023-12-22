@@ -1,5 +1,5 @@
 @User
-Feature: Search News
+Feature: User Search News
   As a user
   I want to search news
   So that I can search news

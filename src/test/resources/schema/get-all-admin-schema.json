@@ -87,9 +87,8 @@
     "Name": {
       "type": "string",
       "enum": [
-        "innaka",
-        "retno",
-        "Ardanu"
+        "Admin Dylee",
+        "retno"
       ],
       "title": "Name"
     }

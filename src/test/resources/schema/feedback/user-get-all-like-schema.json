@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "meta": {
+          "$ref": "#/definitions/Meta"
+        },
+        "results": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Result"
+          }
+        }
+      },
+      "required": [
+        "meta",
+        "results"
+      ],
+      "title": "Welcome"
+    },
+    "Meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "success": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        },
+        "page": {
+          "type": "integer"
+        },
+        "limit": {
+          "type": "integer"
+        },
+        "total": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "limit",
+        "message",
+        "page",
+        "success",
+        "total"
+      ],
+      "title": "Meta"
+    },
+    "Result": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "fullname": {
+          "$ref": "#/definitions/Fullname"
+        },
+        "role": {
+          "$ref": "#/definitions/Role"
+        },
+        "photoImage": {
+          "type": "string"
+        },
+        "newsId": {
+          "$ref": "#/definitions/NewsID"
+        },
+        "content": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "content",
+        "fullname",
+        "id",
+        "newsId",
+        "photoImage",
+        "role"
+      ],
+      "title": "Result"
+    },
+    "Fullname": {
+      "type": "string",
+      "enum": [
+        "Naufal",
+        "Rasyid",
+        "Zara"
+      ],
+      "title": "Fullname"
+    },
+    "NewsID": {
+      "type": "string",
+      "enum": [
+        "8OXPhR",
+        "yKcSEa",
+        "i29J9e"
+      ],
+      "title": "NewsID"
+    },
+    "Role": {
+      "type": "string",
+      "enum": [
+        "user",
+        "admin"
+      ],
+      "title": "Role"
+    }
+  }
+}

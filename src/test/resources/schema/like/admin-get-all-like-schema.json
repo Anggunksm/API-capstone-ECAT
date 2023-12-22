@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "meta": {
+          "$ref": "#/definitions/Meta"
+        },
+        "results": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Result"
+          }
+        }
+      },
+      "required": [
+        "meta",
+        "results"
+      ],
+      "title": "Welcome"
+    },
+    "Meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "success": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "message",
+        "success"
+      ],
+      "title": "Meta"
+    },
+    "Result": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "userId": {
+          "$ref": "#/definitions/UserID"
+        },
+        "newsId": {
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/definitions/Status"
+        }
+      },
+      "required": [
+        "id",
+        "newsId",
+        "status",
+        "userId"
+      ],
+      "title": "Result"
+    },
+    "Status": {
+      "type": "string",
+      "enum": [
+        "LIKE",
+        "DISLIKE"
+      ],
+      "title": "Status"
+    },
+    "UserID": {
+      "type": "string",
+      "enum": [
+        "B2oO1G",
+        "vwCeKz",
+        "kV3Oxu",
+        "kRBxID",
+        "yCZzQU",
+        "p4Ms7Y",
+        "I5E34D",
+        "gLir5y"
+      ],
+      "title": "UserID"
+    }
+  }
+}
